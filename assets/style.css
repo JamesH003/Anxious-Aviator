@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+body {
+    color: #fff;
+    font-family: Almaria, Lato;
+
+}
+
 .hero-image {
     width: 100%;
     background: url(../assets/images/plane-contrails.jpg) no-repeat center center;
     background-size: cover;
-    height: 1200px;
-    
+    height: 1000px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.container-header ul {
+    display: flex;
+    justify-content: space-around;
 }
