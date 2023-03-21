@@ -17,13 +17,14 @@ body {
     background: url(../assets/images/plane-contrails.jpg) no-repeat center center;
     background-size: cover;
     height: 1000px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .container-header {
     display: flex;
     justify-content: space-between;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .container-header a {
@@ -71,4 +72,10 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 200%;
+}
+/* Done as a test for page structure */
+.test {
+    background-color: red;
+    width: 100%;
+    height: 1000px;
 }
