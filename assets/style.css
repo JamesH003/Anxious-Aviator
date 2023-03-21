@@ -17,6 +17,7 @@ body {
     background: url(../assets/images/plane-contrails.jpg) no-repeat center center;
     background-size: cover;
     height: 1000px;
+    position: fixed;
 }
 
 .container-header {
@@ -25,7 +26,48 @@ body {
     color: #fff;
 }
 
+.container-header a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .container-header ul {
     display: flex;
     justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+h1 {
+    letter-spacing: 4px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 300%;
+}
+
+.nav-bar li {
+    padding-left: 20px;
+}
+
+.cover-text {
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(249, 109, 107, .7);
+    position: absolute;
+    top: 300px;
+}
+
+.cover-text h2 {
+    font-size: 400%;
+    margin: 30px;
+}
+
+.cover-text h3 {
+    margin: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
 }
