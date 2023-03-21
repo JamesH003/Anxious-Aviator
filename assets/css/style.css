@@ -15,18 +15,20 @@ body {
 .hero-image {
     width: 100%;
     background: url(../images/plane-contrails.jpg) no-repeat;
-    background-position: top right;
-    height: 1000px;
-    
+    background-size: cover;
+    background-position: right;
+    height: 750px;
+    position: relative;
 }
 
 .container-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
     color: #fff;
     border-bottom: 1px solid #fff;
     align-items: center;
+    background-color: rgb(16, 58, 85);
 }
 
 .container-header a {
@@ -37,48 +39,64 @@ body {
 .container-header ul {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
-    padding: 20px;
+    margin-bottom: 30px;
+    /* padding: 20px; */
     list-style-type: none;
     text-decoration: none;
     letter-spacing: 3px;
 }
 
 .logo {
-    letter-spacing: 4px;
-    margin: 30px;
+    letter-spacing: 5px;
+    margin: 30px 0 20px 0;
     text-decoration: none;
     font-size: 150%;
 }
 
 .nav-bar li {
-    padding-left: 20px;
+    font-size: .7em;
+    padding: 0 10px 0 10px;
 }
 
 /* --------------------------------cover-text-------------------------------- */
 .cover-text {
-    width: 60%;
-    height: 20%;
+    width: 90%;
+    height: 28%;
     background-color: rgba(249, 109, 107, .6);
     position: absolute;
-    top: 300px;
+    top: 383px; 
+    /* transform: rotate(-35deg); */
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 10px;
 }
 
 .cover-text h2 {
-    font-size: 250%;
-    margin: 30px;
+    font-size: 200%;
+    margin: 10px 10px 10px 10px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000;
 }
 
 .cover-text h3 {
-    margin: 30px;
+    margin: 30px 0 10px 10px;
+    padding: 10px 5px;
     text-decoration: none;
     color: #fff;
-    font-size: 200%;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    /* border: 1px solid #fff */
 }
-/* Done as a test for page structure */
+
+.cover-text a {
+    text-decoration: none;
+}
+/* ------------------------------------Done as a test for page structure */
 .container-info {
     background-color: rgb(178, 160, 184);
-    width: 90%;
+    width: 100%;
     height: 1000px;
     display: flex;
 }
