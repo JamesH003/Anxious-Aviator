@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     color: #fff;
     border-bottom: 1px solid #fff;
+    align-items: center;
 }
 
 .container-header a {
@@ -55,9 +56,9 @@ body {
 
 /* --------------------------------cover-text-------------------------------- */
 .cover-text {
-    width: 1000px;
-    height: 400px;
-    background-color: rgba(249, 109, 107, .7);
+    width: 900px;
+    height: 350px;
+    background-color: rgba(249, 109, 107, .6);
     position: absolute;
     top: 300px;
 }
