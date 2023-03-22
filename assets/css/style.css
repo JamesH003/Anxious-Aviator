@@ -1,5 +1,5 @@
 /*--------------------------------google fonts-------------------------------- */
-  @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Lato&family=Montserrat:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -119,4 +119,25 @@ body {
     color: #000;
     letter-spacing: 3px;
     line-height: 25px;
+    font-family: Montserrat, Almarai;
+    font-weight: 900;
+}
+
+.sign-up-button {
+    background-color: #000;
+    color: rgb(178, 160, 184);
+    padding: 18px 30px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+/* -----------Add transition to button------------- */
+
+.txt-img-2 h3 {
+    font-size: 200%;
+    margin: 20px 20px 10px 20px;
+    letter-spacing: 3px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 45px;
 }
