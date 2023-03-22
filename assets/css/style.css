@@ -148,13 +148,13 @@ body {
 
 /* --------------------------------customer review--------------------------------*/
 .cust-review {
-    background-color: rgba(141, 70, 87, .8);
+    background-color: rgb(253, 133, 8);
 }
 
 .cust-review h3, .cust-review h4 {
     margin: 0 20px 0 20px;
     padding: 20px 0;
-    color: #fff;
+    color: #000;
     letter-spacing: 3px;
     line-height: 25px;
     font-family: Montserrat, Almarai;
