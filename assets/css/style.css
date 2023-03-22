@@ -193,3 +193,20 @@ body {
 .course-info h2 {
     padding-bottom: 20px;
 }
+
+/* ---------------------------------footer----------------------------------------- */
+.social-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+    background-color: rgb(16, 58, 85);
+    list-style-type: none;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 150%;
+}
