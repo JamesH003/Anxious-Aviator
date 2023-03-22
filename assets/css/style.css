@@ -1,5 +1,5 @@
 /*--------------------------------google fonts-------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Lato&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Lato&family=Montserrat:ital,wght@0,300;1,400&display=swap');
 
 * {
     margin: 0;
@@ -146,7 +146,7 @@ body {
     margin: 10px 20px 20px 20px;
 }
 
-/* --------------------------------customer review--------------------------------*/
+/* --------------------------------customer-review--------------------------------*/
 .cust-review {
     background-color: rgb(253, 133, 8);
 }
@@ -159,6 +159,7 @@ body {
     line-height: 25px;
     font-family: Montserrat, Almarai;
     font-weight: 900;
+    font-style: italic;
     text-align: left;
 }
 
