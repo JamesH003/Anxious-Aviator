@@ -107,7 +107,7 @@
             </div>
         </a>
          <!-- Add links to sign-up page. Will contain dropdown menu -->
-        <a href="">
+        <a href="#">
             <div>
                 <h2>Online Course <i class="fa-solid fa-computer"></i></h2>
                 <h3>4 hours of course material online</h3>
@@ -141,9 +141,36 @@
         </div>
     </section>
     <!----------------------------------------------------sign-up------------------------------------------------>
-    <section>
-        <h2>Sign-up form section</h2>
-        <form action=""></form>
+    <section class="sign-up-form">
+        <div class="form-container">
+            <h2>Time To Fly! <i class="fa-solid fa-paper-plane"></i></h2>
+            <form class="flex-form" action="POST" action="https://formdump.codeinstitute.net/">
+                
+                <label for="first-name">First Name</label>
+                <input class="text-box" id="first-name" type="text" name="first-name">
+                <br>
+
+                <label for="last-name">Last Name</label>
+                <input class="text-box" id="last-name" type="text" name="last-name">
+                <br>
+
+                <label for="email">Email</label>
+                <input class="text-box" id="email" type="email" name="email">
+                <br>
+
+                <p>Course Option</p>
+                <label for="full-day">Full Day</label>
+                <input id="full-day" type="radio" name="course-choice" value="full-day">
+
+                <label for="half-day">Half-Day</label>
+                <input id="half-day" type="radio" name="course-choice" value="half-day">
+
+                <label for="online">Online</label>
+                <input id="online" type="radio" name="course-choice" value="online">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
     <!----------------------------------------------------footer------------------------------------------------->
     <footer>

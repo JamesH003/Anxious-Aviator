@@ -7,6 +7,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #fff;
     font-family: Almaria, Lato;
@@ -224,6 +228,34 @@ body {
 .txt-info-1 a {
     color: #fff;
     font-weight: bolder;
+}
+
+/*--------------------------------sign-up-form------------------------------------- */
+.sign-up-form {
+    background: url(/assets/images/paper-plane.jpg) no-repeat center;
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+}
+
+.sign-up-form div {
+    background-color: rgba(0, 0, 0, .6);
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-container .text-box {
+    background: transparent;
+    border: 1px solid #fff;
+    line-height: 20px;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
 }
 
 /* ---------------------------------footer----------------------------------------- */
