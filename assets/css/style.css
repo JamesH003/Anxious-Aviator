@@ -199,6 +199,15 @@ body {
     padding-bottom: 20px;
 }
 
+/*------------------------------flight-support--------------------------------------*/
+.flight-support {
+    background-color: rgb(178, 160, 184);
+}
+
+.flight-support iframe {
+    height: 220px;
+}
+
 /* ---------------------------------footer----------------------------------------- */
 .social-links {
     display: flex;
