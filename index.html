@@ -23,15 +23,15 @@
                     </li>
                     <!-- Add links to <a> tags -->
                     <li>
-                        <a href="courses.html">Courses</a>
+                        <a href="#courses-link">Courses</a>
                     </li>
                     
                     <li>
-                        <a href="#">Flight Support</a>
+                        <a href="#flight-support-link">Flight Support</a>
                     </li>
                     
                     <li>
-                        <a href="#">Contact Us</a>
+                        <a href="#sign-up-link">Sign-Up</a>
                     </li>
                 </ul>
             </nav>
@@ -44,8 +44,7 @@
             <div class="cover-text">
                 <h2>Take control of your anxiety</h2>
                 <h2>Fly without fear!</h2>
-                <!-- Add link here -->
-                <a href="#">
+                <a href="#sign-up-link">
                     <h3>Sign-up now</h3>
                 </a>
             </div>
@@ -61,8 +60,8 @@
             <!------------heading-and-paragraph-1---------------->
             <div class="txt-info-1">
                 <h3>Missing out on holidays because you are too anxious to fly?</h3>
-                <p>Sign-up to one of our three <a href="#">course options</a>  and learn to fly without fear! Join us for a full day or half-day session in our full-flight simulator with a fully qualified airline pilot.</p>
-                <button class="button-style-black" type="button">Sign-up</button>
+                <p>Sign-up to one of our three <a href="#courses-link">course options</a>  and learn to fly without fear! Join us for a full day or half-day session in our full-flight simulator with a fully qualified airline pilot.</p>
+                <a href="#sign-up-link"><button class="button-style-black" type="button">Sign-up</button></a>
             </div>
             <!------------info-section-2/heading-2---------------->
             <div class="txt-info-2">
@@ -76,7 +75,7 @@
             <!-------------------paragraph-2---------------------->
             <div class="txt-info-1">
                 <p>Take a look at our <a href="#">Flight Support</a> section to increase your knowledge and understanding of turbulence and to ease your fears. </p>
-                <button class="button-style-black" type="button">Learn More</button>
+                <a href="#flight-support-link"><button class="button-style-black" type="button">Learn More</button></a>
             </div>
         </div>
     </section>
@@ -86,7 +85,7 @@
         <h4>Jane S.</h4>
     </section>
     <!--------------------------------------------------course-info---------------------------------------------->
-    <section class="course-info">
+    <section class="course-info" id="courses-link">
         <!-- Add links to sign-up page. Will contain dropdown menu -->
         <a href="#">
             <div>
@@ -122,7 +121,7 @@
         <h4>Paul M.</h4>
     </section>
     <!--------------------------------------------------flight-support-------------------------------------------->
-    <section class="flight-support">
+    <section class="flight-support" id="flight-support-link">
         <div class="container-flight-support">
             <div class="txt-info-1 txt-support-1">
                 <h3>What is turbulence? <i class="fa-solid fa-wind"></i></h3>
@@ -141,34 +140,36 @@
         </div>
     </section>
     <!----------------------------------------------------sign-up------------------------------------------------>
-    <section class="sign-up-form">
+    <section class="sign-up-form" id="sign-up-link">
         <div class="form-container">
             <h2>Time To Fly! <i class="fa-solid fa-paper-plane"></i></h2>
-            <form class="flex-form" action="POST" action="https://formdump.codeinstitute.net/">
+            <form action="POST" action="https://formdump.codeinstitute.net/">
                 
+            <div class="flex-form">
                 <label for="first-name">First Name</label>
-                <input class="text-box" id="first-name" type="text" name="first-name">
+                <input class="text-box" id="first-name" type="text" name="first-name" required>
                 <br>
 
                 <label for="last-name">Last Name</label>
-                <input class="text-box" id="last-name" type="text" name="last-name">
+                <input class="text-box" id="last-name" type="text" name="last-name" required>
                 <br>
 
                 <label for="email">Email</label>
-                <input class="text-box" id="email" type="email" name="email">
+                <input class="text-box" id="email" type="email" name="email" required>
+                <br>
+            </div>        
+                <h3>Course Option:</h3>
+                <label class="radio-label" for="full-day">Full Day</label>
+                <input class="radio-option" id="full-day" type="radio" name="course-choice" value="full-day">
+
+                <label class="radio-label" for="half-day">Half-Day</label>
+                <input class="radio-option" id="half-day" type="radio" name="course-choice" value="half-day">
+
+                <label class="radio-label" for="online">Online</label>
+                <input class="radio-option" id="online" type="radio" name="course-choice" value="online">
                 <br>
 
-                <p>Course Option</p>
-                <label for="full-day">Full Day</label>
-                <input id="full-day" type="radio" name="course-choice" value="full-day">
-
-                <label for="half-day">Half-Day</label>
-                <input id="half-day" type="radio" name="course-choice" value="half-day">
-
-                <label for="online">Online</label>
-                <input id="online" type="radio" name="course-choice" value="online">
-
-                <input type="submit" value="Submit">
+                <input class="button-style-orange" type="submit" value="Submit">
             </form>
         </div>
     </section>

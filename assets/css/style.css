@@ -235,12 +235,12 @@ body {
     background: url(/assets/images/paper-plane.jpg) no-repeat center;
     width: 100%;
     background-size: cover;
-    height: 450px;
+    height: 515px;
 }
 
-.sign-up-form div {
+.sign-up-form .form-container {
     background-color: rgba(0, 0, 0, .6);
-    height: 450px;
+    height: 500px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -250,12 +250,46 @@ body {
 .form-container .text-box {
     background: transparent;
     border: 1px solid #fff;
-    line-height: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #fff;
 }
 
 .flex-form {
     display: flex;
     flex-direction: column;
+}
+
+.form-container h2 {
+    padding-bottom: 15px;
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+
+.flex-form label, .form-container h3 {
+    padding: 5px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.radio-label {
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.radio-option {
+    margin-right: 18px;
+}
+
+.button-style-orange {
+    background-color: rgb(253, 133, 8);
+    color: #000;
+    padding: 15px 30px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 110%;
 }
 
 /* ---------------------------------footer----------------------------------------- */
