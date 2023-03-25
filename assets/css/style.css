@@ -312,3 +312,35 @@ body {
     color: #fff;
     font-size: 150%;
 }
+
+/* -------------------------------confirmation.html--------------------------------- */
+.confirmation-page {
+    background: url(/assets/images/paper-plane.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.confirmation-container {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5px 20px 5px;
+}
+
+.confirmation-text {
+    padding: 20px 0 20px 0;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#h1-text {
+    font-size: 230%;
+}
+
+#h2-text {
+    font-size: 165%;
+}
