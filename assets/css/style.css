@@ -90,7 +90,7 @@ body {
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: #f1f1f1;
+    color: rgb(253, 133, 8);
   }
   
   /* Position and style the close button (top right corner) */
@@ -106,20 +106,21 @@ body {
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
+    background-color: rgb(16, 58, 85);
     color: white;
-    padding: 10px 15px;
-    border: none;
+    padding:5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: rgb(142, 71, 86);
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
     transition: margin-left .5s; /* If you want a transition effect */
-    padding: 20px;
+    padding-bottom: 20px;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
