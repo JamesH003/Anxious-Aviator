@@ -55,7 +55,7 @@
             <!----------------------image-1---------------------->
             <div class="toy-plane">
                  <!-- amend width from % to px in style.css -->
-                <img src="assets/images/toy-plane.jpg" width="90%" alt="Toy wooden red airplane">
+                <img src="assets/images/toy-plane.jpg" alt="Toy wooden red airplane">
             </div>
             <!------------heading-and-paragraph-1---------------->
             <div class="txt-info-1">
@@ -70,12 +70,12 @@
             <!----------------------image-2----------------------->
             <!-- amend width from % to px in style.css -->
             <div class="stormy-clouds">
-                <img src="assets/images/stormy-clouds.jpg" width="90%" alt="Dark storm clouds">
+                <img src="assets/images/stormy-clouds.jpg" alt="Dark storm clouds">
             </div>
             <!-------------------paragraph-2---------------------->
             <div class="txt-info-1">
                 <p>Take a look at our <a href="#">Flight Support</a> section to increase your knowledge and understanding of turbulence and to ease your fears. </p>
-                <a href="#flight-support-link"><button class="button-style-black" type="button">Learn More</button></a>
+                <a href="#flight-support-link"><button class="button-style-black" id="learn-more-button" type="button">Learn More</button></a>
             </div>
         </div>
     </section>
@@ -130,7 +130,7 @@
                     As uncomfortable as it may be, what you need to remember is that planes are built to withstand even the most extreme turbulence events. Pilots are also well trained to handle the aircraft in all eventualities.</p>
             </div>
                 
-                <iframe class="youtube-video" width="375" src="https://www.youtube.com/embed/--LTYRTKV_A?start=33" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="youtube-video" src="https://www.youtube.com/embed/--LTYRTKV_A?start=33" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
             <div class="txt-info-1 txt-support-1">
                 <p>Part of the fear and anxiety surrounding turbulence is the unknown nature of it. Pilots use the latest forecasts to estimate where they might encounter turbulence along their route.
@@ -164,8 +164,9 @@
 
                 <label class="radio-label" for="half-day">Half-Day</label>
                 <input class="radio-option" id="half-day" type="radio" name="course-choice" value="half-day">
+                <br>
 
-                <label class="radio-label" for="online">Online</label>
+                <label id="online-label" class="radio-label" for="online">Online</label>
                 <input class="radio-option" id="online" type="radio" name="course-choice" value="online">
                 <br>
 
@@ -175,27 +176,29 @@
     </section>
     <!----------------------------------------------------footer------------------------------------------------->
     <footer>
-        <ul class="social-links">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
+        <div class="footer-container">
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
 
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" 
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" 
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
 
-            <li>
-                <a href="https://twitter.com/" target="_blank" rel="noopener" 
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
-            </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" 
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                </li>
 
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener" 
-                aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
-            </li>
-        </ul>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" 
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
     <!-- font awesome script -->
