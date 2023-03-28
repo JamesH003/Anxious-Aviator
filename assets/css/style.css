@@ -133,7 +133,7 @@ body {
 .cover-text {
     width: 90%;
     height: 33%;
-    background-color: rgba(249, 109, 107, .6);
+    background-color: rgb(142, 71, 86);
     position: absolute;
     top: 383px; 
     /* transform: rotate(-35deg); */
@@ -160,6 +160,11 @@ body {
     text-transform: uppercase;
     width: 40%;
     letter-spacing: 3px;
+}
+
+.cover-text h3:hover {
+    color: rgb(142, 71, 86);
+    border-bottom: 1px solid rgb(142, 71, 86);
 }
 
 /* --------------------------------info section-------------------------------- */
@@ -205,6 +210,11 @@ body {
 
 #learn-more-button {
     margin-bottom: 40px;
+}
+
+.button-style-black:hover {
+    background-color: rgb(253, 133, 8);
+    color: #000;
 }
 /* -----------Add transition to button------------- */
 
@@ -306,6 +316,10 @@ body {
     font-weight: bolder;
 }
 
+.txt-info-1 a:hover {
+    color: #fff;
+}
+
 /*--------------------------------sign-up-form------------------------------------- */
 .sign-up-form {
     background: url(/assets/images/paper-plane.jpg) no-repeat center;
@@ -370,6 +384,15 @@ body {
     font-size: 110%;
 }
 
+.button-style-orange:hover {
+    background-color: #000;
+    color: rgb(253, 133, 8);
+}
+
+.flex-form > input:hover {
+    border-color: rgb(253, 133, 8);
+}
+
 /* ---------------------------------footer----------------------------------------- */
 .social-links {
     display: flex;
@@ -388,6 +411,10 @@ body {
     background-color: rgb(16, 58, 85);
     padding: 35px 0 35px 0;
 }
+
+.social-links a:hover {
+    color: rgb(253, 133, 8);
+} 
 
 /* -------------------------------confirmation.html--------------------------------- */
 .confirmation-page {
