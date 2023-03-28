@@ -44,7 +44,8 @@ body {
 .container-header ul {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px for nav-bar */
+    /* margin-bottom: 30px; */
     list-style-type: none;
     text-decoration: none;
     letter-spacing: 3px;
@@ -60,6 +61,7 @@ body {
 .nav-bar li {
     font-size: .7em;
     padding: 0 10px 0 10px;
+    display: none;
 }
 
 /* ---------------------------------side-bar--------------------------------- */
@@ -199,28 +201,36 @@ body {
     font-weight: 900;
 }
 
-.button-style-black {
+/* buttons */
+.txt-info-1 div {
     background-color: #000;
     color: rgb(178, 160, 184);
-    padding: 18px 30px;
+    padding: 15px 20px;
     margin-left: 20px;
     letter-spacing: 3px;
     cursor: pointer;
+    width: 38%;
+    font-size: 100%;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-#learn-more-button {
-    margin-bottom: 40px;
+.txt-info-1 .button-div {
+    color: rgb(178, 160, 184);
+    text-decoration: none;
 }
 
 .button-style-black:hover {
     background-color: rgb(253, 133, 8);
+}
+
+.button-style-black .button-div:hover {
     color: #000;
 }
-/* -----------Add transition to button------------- */
 
 .txt-info-2 h3 {
     font-size: 200%;
-    margin: 40px 20px 10px 20px;
+    margin: 0 20px 10px 20px;
     letter-spacing: 3px;
     color: #000;
     text-transform: uppercase;
@@ -288,6 +298,7 @@ body {
     text-decoration: none;
 }
 
+/* zoom animation for course-info section */
 .full-day-course:hover, .half-day-course:hover, .online-course:hover {
     animation-name: course-info-zoom;
     animation-duration: 5s;
