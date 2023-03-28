@@ -288,6 +288,21 @@ body {
     text-decoration: none;
 }
 
+.full-day-course:hover, .half-day-course:hover, .online-course:hover {
+    animation-name: course-info-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards ;
+}
+
+@keyframes course-info-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 /*------------------------------flight-support--------------------------------------*/
 .container-flight-support{
     background-color: #81DAF5;
