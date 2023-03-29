@@ -92,7 +92,7 @@ body {
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: rgb(253, 133, 8);
+    color: #fd9c35;
   }
   
   /* Position and style the close button (top right corner) */
@@ -224,7 +224,7 @@ body {
 }
 
 .button-style-black:hover {
-    background-color: rgb(253, 133, 8);
+    background-color: #fd9c35;
 }
 
 .button-style-black .button-div:hover {
@@ -247,7 +247,7 @@ body {
 
 /* --------------------------------customer-review--------------------------------*/
 .cust-review {
-    background-color: rgb(253, 133, 8);
+    background-color: #fd9c35;
 }
 
 .cust-review h3, .cust-review h4 {
@@ -404,7 +404,7 @@ body {
 }
 
 .button-style-orange {
-    background-color: rgb(253, 133, 8);
+    background-color: #fd9c35;
     color: #000;
     padding: 15px 30px;
     letter-spacing: 3px;
@@ -415,11 +415,11 @@ body {
 
 .button-style-orange:hover {
     background-color: #000;
-    color: rgb(253, 133, 8);
+    color: #fd9c35;
 }
 
 .flex-form > input:hover {
-    border-color: rgb(253, 133, 8);
+    border-color: #fd9c35;
 }
 
 /* ---------------------------------footer----------------------------------------- */
@@ -442,7 +442,7 @@ body {
 }
 
 .social-links a:hover {
-    color: rgb(253, 133, 8);
+    color: #fd9c35;
 } 
 
 /* -------------------------------confirmation.html--------------------------------- */
@@ -486,6 +486,14 @@ body {
     }
 }
 
+/* for screen sizes 390px wide and up */
+
+@media screen and (min-width: 390px) {
+    .cover-text {
+        height: 30%;
+    }
+}
+
 /* for screen sizes 750px wide and up */
 
 @media screen and (min-width: 750px) {
@@ -512,7 +520,6 @@ body {
 
     /* color change-hover over nav-bar links */
     .nav-bar .nav-bar-hover:hover {
-        /* color: rgb(142, 71, 86); */
         color: #bd7b89;
     }
 
@@ -643,6 +650,7 @@ body {
 }
 
 /* for screen sizes 950px wide and up */
+
 @media screen and (min-width: 950px) {
    /* to increase height of cover-text overlay */
    .cover-text {
@@ -734,17 +742,49 @@ body {
     }
 
     /* sign-up form */
+    /* to center the form */
     form {
         margin-left: 30%;
     }
 
+    /* to center the header */
     .form-container h2 {
         margin-left: 30%;
         margin-top: 20px;
         font-size: 260%;
     }
 
+    /* to align the radio buttons */
     .radio-option {
         margin-right: 35px;
+    }
+}
+
+/* for screen sizes 950px wide and up */
+
+@media screen and (min-width: 1200px){
+    /* align logo and nav-bar along top of page */
+    .container-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin: 30px 0 30px 30px;
+    }
+
+    /* padding left-over from side-bar */
+    #main {
+        padding-bottom: 0;
+    }
+
+    /* to algin nav-bar */
+    nav {
+        margin-right: 20px;
+    }
+
+    /* position plane lower in viewport */
+    .hero-image {
+        background-position-y: -75px;
     }
 }
