@@ -169,6 +169,10 @@ body {
     border-bottom: 1px solid rgb(142, 71, 86);
 }
 
+.cover-text a {
+    text-decoration: none;
+}
+
 /* --------------------------------info section-------------------------------- */
 .container-info {
     background-color: rgb(178, 160, 184);
@@ -480,4 +484,87 @@ body {
     .cover-text h3 {
         width: 34%;
     }
+}
+
+/* for screen sizes 750px wide and up */
+
+@media screen and (min-width: 750px) {
+    /* removal of sidebar */
+    .sidebar {
+        display: none;
+    }
+
+    .openbtn {
+        display: none;
+    }
+    /* adding nav-bar */
+    .nav-bar li {
+        font-size: 1.1em;
+        padding: 0 10px 0 10px;
+        display: flex;
+    }
+
+    .logo {
+        font-size: 300%;
+    }
+
+    .cover-text {
+        height: 27%;
+    }
+
+    /* main central text */
+    .cover-text h2 {
+        font-size: 213%;
+    }
+
+    /* sign-up text */
+    .cover-text h3 {
+        width: 22%;
+        margin-top: 30px;
+        font-size: 105%;
+    }
+
+    .cover-text h3:hover {
+        color: rgb(16, 58, 85);
+        border-bottom: 1px solid rgb(16, 58, 85);
+    }
+
+    .cover-text a {
+        text-decoration: none;
+    }
+
+    /* info-section */
+    .media-750px-info1 {
+        display: flex;
+    }
+
+    .toy-plane img {
+        height: 410px;
+        width: 355px;
+        margin: 50px 40px 40px 20px;
+        object-fit: cover;
+    }
+   
+    /* large text */
+    .txt-info-1 h3 {
+        font-size: 200%;
+        margin: 40px 20px 20px 0px;
+    }
+    /* paragraph under large text */
+    .txt-info-1 p {
+        margin: 0px 20px 40px 0px;
+    }
+
+    /* sign-up button */
+    .txt-info-1 div {
+        margin-left: 0px;
+        text-transform: uppercase; 
+    }
+
+    .media-750px-info2 {
+        display: flex;
+    }
+
+
+
 }
