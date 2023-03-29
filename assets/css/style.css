@@ -551,14 +551,17 @@ body {
     }
 
     /* info-section */
-    /* flexbox for upper image, heading and text */
+    /* css grid for upper image, heading and text */
     .media-750px-info1 {
-        display: flex;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 85% 85%;
+    
     }
 
     .toy-plane img {
-        height: 500px;
-        width: 350px;
+        height: 100%;
+        width: 96%;
         margin: 50px 30px 40px 20px;
         object-fit: cover;
     }
@@ -566,11 +569,12 @@ body {
     /* upper large text */
     .txt-info-1 h3 {
         font-size: 200%;
-        margin: 40px 20px 20px 0px;
+        margin: 40px 20px 20px 30px;
     }
+    
     /* paragraph under large text */
     .txt-info-1 p {
-        margin: 10px 30px 36px 0px;
+        margin: 10px 30px 36px 30px;
     }
 
     /* sign-up button */
@@ -578,21 +582,28 @@ body {
         margin-left: 0px;
         text-transform: uppercase; 
     }
-    /* flexbox for bottom image, heading and text */
+   
+    /* css grid for bottom image, heading and text */
     .media-750px-info2 {
-        display: flex;
-        flex-direction: row-reverse;
+        display: grid;
+        grid-template-columns: 50% 45%;
+        grid-template-rows: 85% 85%;
     }
 
     .stormy-clouds img {
-        width: 350px;
-        height: 500px;
+        height: 100%;
+        width: 96%;
         object-fit: cover;
-        margin: 50px 20px 40px 30px;
+        margin: 25px 20px 40px 30px;
+    }
+
+    /* re-order img and text horizontally */
+    div .stormy-clouds {
+        order: 1;
     }
     /* bottom large text */
     #heading-media-query{
-        margin: 100px 0 20px 20px;
+        margin: 30px 0 20px 20px;
     }
 
     /* bottom text */
@@ -633,14 +644,27 @@ body {
         margin: 0 20px;
     }
 
-    /* remove line-break in radio buttons */
-    #hidden-space-750px {
-        display: none;
+    /* sign-up form */
+    /* to center the form */
+    form {
+        margin-left: 30%;
+    }
+
+    /* to center the header */
+    .form-container h2 {
+        margin-left: 30%;
+        margin-top: 20px;
+        font-size: 260%;
+    }
+
+    /* to align the radio buttons */
+    .radio-option {
+        margin-right: 35px;
     }
 
     /* increase spacing between radio btns */
     .radio-option {
-        margin-right: 54px;
+        margin-right: 75px;
     }
 
     /* reduce width of input fields */
@@ -754,13 +778,18 @@ body {
         font-size: 260%;
     }
 
+    /* remove line-break in radio buttons */
+    #hidden-space-750px {
+        display: none;
+    }
+
     /* to align the radio buttons */
     .radio-option {
         margin-right: 35px;
     }
 }
 
-/* for screen sizes 950px wide and up */
+/* for screen sizes 1200px wide and up */
 
 @media screen and (min-width: 1200px){
     /* align logo and nav-bar along top of page */
@@ -786,5 +815,17 @@ body {
     /* position plane lower in viewport */
     .hero-image {
         background-position-y: -75px;
+    }
+
+    .cover-text {
+        width: 865px;
+    }
+
+    .toy-plane img {
+        width: 545px;
+    }
+
+    .stormy-clouds img {
+        width: 545px;
     }
 }
