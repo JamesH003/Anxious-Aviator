@@ -480,6 +480,7 @@ body {
 /* for screen sizes 375px wide and up */
 
 @media screen and (min-width: 375px) {
+    /* width of sign-up link */
     .cover-text h3 {
         width: 34%;
     }
@@ -555,7 +556,7 @@ body {
         object-fit: cover;
     }
    
-    /* large text */
+    /* upper large text */
     .txt-info-1 h3 {
         font-size: 200%;
         margin: 40px 20px 20px 0px;
@@ -583,12 +584,12 @@ body {
         margin: 50px 20px 40px 30px;
     }
     /* bottom large text */
-    #heading-750px {
+    #heading-media-query{
         margin: 100px 0 20px 20px;
     }
 
     /* bottom text */
-    #text-750px {
+    #text-media-query {
         margin: 0 0 50px 20px;
     }
 
@@ -631,14 +632,79 @@ body {
         display: none;
     }
 
+    /* increase spacing between radio btns */
     .radio-option {
         margin-right: 54px;
     }
 
+    /* reduce width of input fields */
     .form-container .text-box {
         width: 60%;
     }
+}
 
+/* for screen sizes 950px wide and up */
+@media screen and (min-width: 950px) {
+   /* to increase height of cover-text overlay */
+   .cover-text {
+    height: 31%;
+   }
 
+   /* main central text */
+   .cover-text h2 {
+    font-size: 276%;
+    margin-left: 20px;
+   }
+    
+   /* width of sign-up link */
+    .cover-text h3 {
+        width: 21%;
+        font-size: 135%;
+        margin-left: 20px;
+    }
+
+    /* info-section */
+    /* uppper img */
+    .toy-plane img {
+        width: 440px;
+        margin: 50px 30px 40px 30px;
+    }
+
+    /* upper large text */
+    .txt-info-1 h3 {
+        font-size: 229%;
+        line-height: 52px;
+        margin: 65px 30px 20px 20px;
+    }
+
+    /* upper paragraph */
+    .txt-info-1 p {
+        margin: 10px 30px 40px 20px;
+    }
+
+    .stormy-clouds img {
+        width: 440px;
+        margin: 50px 30px 40px 30px;
+    }
+
+    /* lower large text */
+    #heading-media-query {
+        margin: 100px 30px 20px 30px;
+    }
+
+    /* lower paragraph */
+    #text-media-query {
+        margin: 0 30px 50px 30px;
+    }
+
+    /* learn more button */
+    div .button-style-black {
+        margin-left: 30px;
+    }
+    
+    /* sign-up button */
+    #button-media-query {
+        margin-left: 20px;
+    }
 
 }
