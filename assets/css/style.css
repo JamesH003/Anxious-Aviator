@@ -614,7 +614,6 @@ body {
     }
 
     /* flight-support */
-
     /* margin for txt - flight-support */
     .txt-support-1 {
         margin: 20px 20px 0px 20px;
@@ -707,4 +706,45 @@ body {
         margin-left: 20px;
     }
 
+    /* cust-review section */
+    .cust-review h3 {
+        margin: 0 30px;
+    }
+
+    .cust-review h4 {
+        margin: 0 30px;
+    }
+
+    /* flight-support section */
+    /* heading */
+    .txt-support-1 h3 {
+        font-size: 260%;
+    }
+
+    /* margin around text */
+    .txt-support-1 {
+        margin: 20px 10px 0px 10px;
+    }
+
+    /* youtube video */
+    .flight-support iframe {
+        margin: 0 30px;
+        width: 890px;
+        height: 450px;
+    }
+
+    /* sign-up form */
+    form {
+        margin-left: 30%;
+    }
+
+    .form-container h2 {
+        margin-left: 30%;
+        margin-top: 20px;
+        font-size: 260%;
+    }
+
+    .radio-option {
+        margin-right: 35px;
+    }
 }
