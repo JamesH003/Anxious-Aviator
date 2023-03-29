@@ -611,11 +611,17 @@ body {
         margin: 0 0 50px 20px;
     }
 
+    /* sign-up button */
+    #button-media-query {
+        margin-left: 30px;
+    }
+
     /* learn-more button */
      div .button-style-black {
         margin-left: 20px;
     }
 
+    /* course-info section */
     /* change from column to row */
     .course-info {
         flex-direction: row;
@@ -691,50 +697,6 @@ body {
     .cover-text h3 {
         width: 21%;
         font-size: 135%;
-        margin-left: 20px;
-    }
-
-    /* info-section */
-    /* uppper img */
-    .toy-plane img {
-        width: 440px;
-        margin: 50px 30px 40px 30px;
-    }
-
-    /* upper large text */
-    .txt-info-1 h3 {
-        font-size: 229%;
-        line-height: 52px;
-        margin: 65px 30px 20px 20px;
-    }
-
-    /* upper paragraph */
-    .txt-info-1 p {
-        margin: 10px 30px 40px 20px;
-    }
-
-    .stormy-clouds img {
-        width: 440px;
-        margin: 50px 30px 40px 30px;
-    }
-
-    /* lower large text */
-    #heading-media-query {
-        margin: 100px 30px 20px 30px;
-    }
-
-    /* lower paragraph */
-    #text-media-query {
-        margin: 0 30px 50px 30px;
-    }
-
-    /* learn more button */
-    div .button-style-black {
-        margin-left: 30px;
-    }
-    
-    /* sign-up button */
-    #button-media-query {
         margin-left: 20px;
     }
 
@@ -821,11 +783,11 @@ body {
         width: 865px;
     }
 
-    .toy-plane img {
+    /* .toy-plane img {
         width: 545px;
     }
 
     .stormy-clouds img {
         width: 545px;
-    }
+    } */
 }
