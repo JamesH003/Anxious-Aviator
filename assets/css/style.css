@@ -509,6 +509,12 @@ body {
         font-size: 300%;
     }
 
+    /* color change-hover over nav-bar links */
+    .nav-bar .nav-bar-hover:hover {
+        /* color: rgb(142, 71, 86); */
+        color: #bd7b89;
+    }
+
     /* to reduce height of cover-text overlay */
     .cover-text {
         height: 27%;
@@ -608,16 +614,30 @@ body {
 
     /* flight-support */
 
+    /* margin for txt - flight-support */
     .txt-support-1 {
         margin: 20px 20px 0px 20px;
     }
 
+    /* re-size youtube video */
     .flight-support iframe {
         width: 710px;
         height: 400px;
         margin: 0 20px;
     }
 
+    /* remove line-break in radio buttons */
+    #hidden-space-750px {
+        display: none;
+    }
+
+    .radio-option {
+        margin-right: 54px;
+    }
+
+    .form-container .text-box {
+        width: 60%;
+    }
 
 
 
