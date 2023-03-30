@@ -223,8 +223,17 @@ body {
 }
 
 .txt-info-1 .button-div {
-    color: rgb(178, 160, 184);
+    color: #fff;
     text-decoration: none;
+    padding: 15px 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    width: 38%;
+    font-size: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: rgba(164, 71, 6, 1.0);
+
 }
 
 .button-style-black:hover {
@@ -355,8 +364,8 @@ body {
     font-weight: bolder;
 }
 
-.txt-info-1 a:hover {
-    color: #fff;
+.txt-info-1 .hyperlink-txt:hover {
+    color: #fd9c35;
 }
 
 /*--sign-up-form-- */
@@ -530,7 +539,7 @@ body {
 
     /* color change-hover over nav-bar links */
     .nav-bar .nav-bar-hover:hover {
-        color: #bd7b89;
+        color: rgba(164, 71, 6, 1.0);
     }
 
     /* to reduce height of cover-text overlay */
