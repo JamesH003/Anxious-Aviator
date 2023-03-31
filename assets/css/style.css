@@ -399,17 +399,19 @@ body {
     padding: 5px;
 }
 
+/* to space radio options */
 .radio-option {
     margin-right: 18px;
 }
 
+/* to align with radio option above */
 #online-label {
     padding-right: 19px;
 }
 
 .button-style-orange {
-    background-color: #934106;
-    color: #fff;
+    background-color: #fd9c35;
+    color: #000;
     padding: 15px 30px;
     letter-spacing: 3px;
     margin: 20px 0;
@@ -418,8 +420,8 @@ body {
 }
 
 .button-style-orange:hover {
-    background-color: #fd9c35;
-    color: #000;
+    background-color: #934106;
+    color: #fff;
 }
 
 .flex-form > input:hover {
@@ -732,7 +734,7 @@ body {
 
     /* paragraph under large text */
     .txt-info-1 p {
-        margin: 10px 20px 40px 30px;
+        margin: 10px 273px 40px 30px;
         line-height: 35px;
     }
 
@@ -810,8 +812,12 @@ body {
 
     /* to align the radio buttons */
     .radio-option {
-        margin-right: 35px;
+        margin-right: 42px;
     }
+
+    /* to remove the alignment from below 750px */
+    #online-label {
+        padding-right: 5px;
 }
 
 /* for screen sizes 1200px wide and up */
@@ -885,6 +891,27 @@ body {
     /* to align bottom of middle div */
     .half-day-course h3 {
         padding-bottom: 15px;
+    }
+
+    /* increase size of header */
+    .form-container h2 {
+        font-size: 300%;
+    }
+
+    /* increase size of input field labels */
+    .flex-form label, .form-container h3 {
+        font-size: 150%;
+    }
+
+    /* increase size of radio labels */
+    .radio-label {
+        line-height: 35px;
+        font-size: 125%;
+    }
+
+    /* space radio options evenly and align with text box above */
+    .radio-option {
+        margin-right: 72px;
     }
 
 }
