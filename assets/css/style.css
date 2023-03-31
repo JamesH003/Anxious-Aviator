@@ -748,16 +748,12 @@ body {
     /* heading */
     .txt-support-1 h3 {
         font-size: 260%;
-    }
-
-    /* margin around text */
-    .txt-support-1 {
-        margin: 20px 10px 0px 10px;
+        margin: 40px 30px 30px 30px;
     }
 
     /* youtube video */
     .flight-support iframe {
-        margin: 0 30px;
+        margin: 0 30px 20px 30px;
         width: 890px;
         height: 450px;
     }
