@@ -287,7 +287,7 @@ body {
     line-height: 20px;
     letter-spacing: 2px;
     padding: 25px 10px 25px 10px;
-    font-size: 85%;
+    font-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -496,6 +496,11 @@ body {
     .cover-text {
         height: 30%;
     }
+
+    /* course-info */
+    .course-info div {
+        font-size: 120%;
+    }
 }
 
 /* for screen sizes 750px wide and up */
@@ -628,6 +633,22 @@ body {
         flex-direction: row;
     }
 
+    /* to maintain border-bottom alignment */
+    .course-info div {
+        line-height: 20px;
+        font-size: 85%;
+    }
+
+    /* large text */
+    .course-info h2 {
+        font-size: 150%;
+    }
+
+    /* smaller text */
+    .course-info h3 {
+        font-size: 130%;
+    }
+
     /* to align bottom of middle div */
     .half-day-course h3 {
         margin-bottom: 12px;
@@ -744,6 +765,17 @@ body {
         margin: 0 30px;
     }
 
+    /* course-info section */
+     /* large text */
+     .course-info h2 {
+        font-size: 200%;
+    }
+
+    /* smaller text */
+    .course-info h3 {
+        font-size: 155%;
+    }
+
     /* flight-support section */
     /* heading */
     .txt-support-1 h3 {
@@ -812,6 +844,47 @@ body {
 
     .cover-text {
         width: 865px;
+    }
+
+    /* info-section */
+    /* large img */
+    .plane-window {
+        height: 500px;
+        margin: 50px 30px 40px 30px;
+    }
+
+    /* upper large text */
+    .txt-info-1 h3 {
+        font-size: 218%;
+    }
+
+    /* bottom large text */
+    #heading-media-query {
+        margin: 90px 30px 20px 30px;
+    }
+
+     /* large img */
+     .vert-storm-clouds {
+        height: 500px;
+        margin: 0 30px 40px 5px;
+    }
+
+    /* button width */
+    .txt-info-1 .button-div {
+        width: 15%;
+    }
+
+    /* course-info */
+    /* increase size of section and text */
+    .course-info div {
+        line-height: 40px;
+        /* to maintain border-bottom alignment */
+        font-size: 119%;
+    }
+
+    /* to align bottom of middle div */
+    .half-day-course h3 {
+        padding-bottom: 15px;
     }
 
 }
