@@ -375,6 +375,28 @@ body {
     color: #fd9c35;
 }
 
+/* check my flight button */
+#turbli-link-button {
+    display: block;
+    margin-left: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    width: 46%;
+    font-size: 90%;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #934106;
+}
+
+/* hover over check my flight button */
+#turbli-link-button:hover {
+    background-color: #fd9c35;
+    color: #000;
+}
+
 /*--sign-up-form-- */
 /* background image for sign-up form */
 .sign-up-form {
@@ -546,6 +568,11 @@ body {
     .course-info div {
         font-size: 120%;
     }
+
+    /* check my flight button */
+    #turbli-link-button {
+    width: 38%;
+    }
 }
 
 /* for screen sizes 750px wide and up */
@@ -712,6 +739,12 @@ body {
         margin: 0 20px;
     }
 
+    /* check my flight button */
+    #turbli-link-button {
+        margin-left: 20px;
+        width: 22%;
+        }
+
     /* sign-up form */
     /* to center the form */
     form {
@@ -738,6 +771,11 @@ body {
     /* reduce width of input fields */
     .form-container .text-box {
         width: 60%;
+    }
+
+    /* font-size of social icons */
+    .social-links a {
+        font-size: 175%;
     }
 }
 
@@ -833,6 +871,13 @@ body {
         margin: 0 30px 20px 30px;
         width: 890px;
         height: 450px;
+    }
+
+    /* check my flight button */
+    #turbli-link-button {
+        width: 19%;
+        font-size: 100%;
+        margin-left: 30px;
     }
 
     /* sign-up form */
@@ -944,6 +989,12 @@ body {
         font-size: 300%;
     }
 
+     /* check my flight link button */
+     #turbli-link-button {
+        width: 15%;
+    }
+
+    /* sign-up form */
     /* increase size of input field labels */
     .flex-form label, .form-container h3 {
         font-size: 150%;
@@ -958,5 +1009,10 @@ body {
     /* space radio options evenly and align with text box above */
     .radio-option {
         margin-right: 72px;
+    }
+
+     /* font-size of social icons */
+     .social-links a {
+        font-size: 200%;
     }
 }
