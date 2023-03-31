@@ -26,13 +26,13 @@ body {
     position: relative;
 }
 
+/* flex container - column to align logo and sidebar button */
 .container-header {
     display: flex;
     flex-direction: column;
     width: 100%;
     color: #fff;
-    /* border-bottom: 1px solid #fff; */
-    border-bottom: 1px solid #934106;
+    border-bottom: 1px solid #fff;
     align-items: center;
     background-color: rgb(16, 58, 85);
 }
@@ -67,7 +67,7 @@ body {
 /* <!-- ref w3schools https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp --> */
 .sidebar {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 0; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
@@ -89,7 +89,7 @@ body {
     transition: 0.3s;
   }
   
-  /* When you mouse over the navigation links, change their color */
+  /* hover over nav links in sidebar */
   .sidebar a:hover {
     color: #fd9c35;
   }
@@ -114,17 +114,18 @@ body {
     border-radius: 5px;
   }
   
+  /* hover over open button for sidebar */
   .openbtn:hover {
     background-color: #934106;
   }
   
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /* push the page content to the right when you open the sidebar */
   #main {
-    transition: margin-left .5s; /* If you want a transition effect */
+    transition: margin-left .5s; 
     padding-bottom: 20px;
   }
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  /* less padding and a smaller font size */
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
@@ -142,6 +143,7 @@ body {
     border-bottom-right-radius: 10px;
 }
 
+/* large text on cover-text overlay */
 .cover-text h2 {
     font-size: 200%;
     margin: 10px 10px 10px 10px;
@@ -151,6 +153,7 @@ body {
     color: #fff;
 }
 
+/* sign-up link below cover-text */
 .cover-text h3 {
     margin: 51px 0 10px 10px;
     padding: 10px 0 0 0;
@@ -163,11 +166,13 @@ body {
     letter-spacing: 3px;
 }
 
+/* hover over sign-up link below cover-text */
 .cover-text h3:hover {
     color: #fd9c35;
     border-bottom: 1px solid #fd9c35;
 }
 
+/* remove blue link underline */
 .cover-text a {
     text-decoration: none;
 }
@@ -190,6 +195,7 @@ body {
     display: none;
 }
 
+/* first large text in info-section */
 .txt-info-1 h3 {
     font-size: 187%;
     margin: 20px 20px 10px 20px;
@@ -199,6 +205,7 @@ body {
     line-height: 45px;
 }
 
+/* first paragraph in info-section */
 .txt-info-1 p {
     margin: 10px 20px 20px 20px;
     color: #000;
@@ -230,6 +237,7 @@ body {
     color: #000;
 }
 
+/* second large text in info-section */
 .txt-info-2 h3 {
     font-size: 200%;
     margin: 0 20px 10px 20px;
@@ -251,10 +259,12 @@ body {
 }
 
 /* --customer-review--*/
+/* background colour for cust-review section */
 .cust-review {
     background-color: #255C7E;
 }
 
+/* customer review text */
 .cust-review h3, .cust-review h4 {
     margin: 0 20px 0 20px;
     padding: 20px 0;
@@ -267,11 +277,13 @@ body {
     text-align: left;
 }
 
+/* customer review name */
 .cust-review h4 {
     padding: 2px 0 30px 0;
 }
 
 /* --course-info--*/
+/* flex container and background image for section */
 .course-info {
     background: url(../images/cockpit.jpg) no-repeat center;
     background-size: cover;
@@ -280,6 +292,7 @@ body {
     flex-direction: column;
 }
 
+/* style the three divs in a column */
 .course-info div {
     background-color: rgba(0, 0, 0, .6);
     border: 2px solid #fff;
@@ -294,14 +307,18 @@ body {
     border-radius: 10%;
 }
 
+/* large header and text beneath */
 .course-info h2, .course-info h3 {
     padding: 8px;
     color: #fff;
 }
+
+/* padding beneath large header */
 .course-info h2 {
     padding-bottom: 20px;
 }
 
+/* remove the blue underline for links */
 .course-info a {
     text-decoration: none;
 }
@@ -313,6 +330,7 @@ body {
     animation-fill-mode: forwards ;
 }
 
+/* zoom animation */
 @keyframes course-info-zoom {
     from {
         transform: scale(1);
@@ -323,6 +341,7 @@ body {
 }
 
 /*--flight-support--*/
+/* flexbox for flight-support section and style to column */
 .container-flight-support{
     background-color: #F6EBE0;
     width: 100%;
@@ -330,11 +349,13 @@ body {
     flex-direction: column;
 }
 
+/* youtube video */
 .flight-support iframe {
     height: 220px;
     width: 100%;
 }
 
+/* paragraph in flight-support section */
 .txt-support-1 p {
     margin: 20px 20px 20px 20px;
     color: #000;
@@ -344,22 +365,26 @@ body {
     font-weight: 900;
 }
 
+/* hyperlink embedded in both info-section & flight-support section */
 .txt-info-1 a {
     color: #000;
     font-weight: bolder;
 }
 
+/* hover over hyperlinks */
 .txt-info-1 .hyperlink-txt:hover {
     color: #fd9c35;
 }
 
 /*--sign-up-form-- */
+/* background image for sign-up form */
 .sign-up-form {
     background: url(/assets/images/paper-plane.jpg) no-repeat center;
     width: 100%;
     background-size: cover;
 }
 
+/* flexbox and overlay background color of sign-up form */
 .sign-up-form .form-container {
     background-color: rgba(0, 0, 0, .6);
     padding: 20px;
@@ -368,6 +393,7 @@ body {
 
 }
 
+/* style for input fields - text box */
 .form-container .text-box {
     background: transparent;
     border: 1px solid #fff;
@@ -376,23 +402,27 @@ body {
     color: #fff;
 }
 
+/* turn form into flexbox and column */
 .flex-form {
     display: flex;
     flex-direction: column;
 }
 
+/* main header of sign-up form */
 .form-container h2 {
     padding-bottom: 15px;
     font-size: 200%;
     letter-spacing: 3px;
 }
 
+/* header for radio buttons */
 .flex-form label, .form-container h3 {
     padding: 5px;
     line-height: 30px;
     letter-spacing: 2px;
 }
 
+/* label for radio buttons */
 .radio-label {
     line-height: 30px;
     letter-spacing: 2px;
@@ -409,6 +439,7 @@ body {
     padding-right: 19px;
 }
 
+/* orange sign-up button on sign-up form */
 .button-style-orange {
     background-color: #fd9c35;
     color: #000;
@@ -419,16 +450,19 @@ body {
     font-size: 110%;
 }
 
+/* hover over sign-up button */
 .button-style-orange:hover {
     background-color: #934106;
     color: #fff;
 }
 
+/* hover over input fields - text box */
 .flex-form > input:hover {
     border-color: #fd9c35;
 }
 
 /* --footer-- */
+/* flexbox and alignment for social icons */
 .social-links {
     display: flex;
     justify-content: center;
@@ -438,26 +472,33 @@ body {
     list-style-type: none;
 }
 
+/* color and size of social links in footer */
 .social-links a {
     color: #fff;
     font-size: 150%;
 }
+
+/* color and spacing for footer */
 .footer-container {
     background-color: rgb(16, 58, 85);
     padding: 35px 0 35px 0;
 }
 
+/* hover over social links */
 .social-links a:hover {
     color: #fd9c35;
 } 
 
-/* --confirmation.html-- */
+
+/* --confirmation.html - destination upon submission of sign-up form-- */
+/* background img for confirmation page */
 .confirmation-page {
     background: url(/assets/images/paper-plane.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
 }
 
+/* flexbox, background overlay color and column styling for confirmation page */
 .confirmation-container {
     background-color: rgba(0, 0, 0, .6);
     height: 100vh;
@@ -468,6 +509,7 @@ body {
     padding: 20px 5px 20px 5px;
 }
 
+/* text on confirmation page */
 .confirmation-text {
     padding: 20px 0 20px 0;
     letter-spacing: 2px;
@@ -475,10 +517,12 @@ body {
     text-align: center;
 }
 
+/* font-size for header text on confirmation page */
 #h1-text {
     font-size: 230%;
 }
 
+/* font-size for sub-header on confirmation page */
 #h2-text {
     font-size: 165%;
 }
@@ -734,7 +778,7 @@ body {
 
     /* paragraph under large text */
     .txt-info-1 p {
-        margin: 10px 273px 40px 30px;
+        margin: 10px 30px 40px 30px;
         line-height: 35px;
     }
 
@@ -818,11 +862,13 @@ body {
     /* to remove the alignment from below 750px */
     #online-label {
         padding-right: 5px;
+    }
 }
 
 /* for screen sizes 1200px wide and up */
 
 @media screen and (min-width: 1200px){
+    
     /* align logo and nav-bar along top of page */
     .container-header {
         flex-direction: row;
@@ -848,6 +894,7 @@ body {
         background-position-y: -75px;
     }
 
+    /* width of cover-text overlay */
     .cover-text {
         width: 865px;
     }
@@ -913,5 +960,4 @@ body {
     .radio-option {
         margin-right: 72px;
     }
-
 }
