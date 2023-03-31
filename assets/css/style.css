@@ -22,7 +22,7 @@ body {
     background: url(../images/plane-contrails.jpg) no-repeat;
     background-size: cover;
     background-position: right;
-    height: 610px;
+    height: 723px;
     position: relative;
 }
 
@@ -304,7 +304,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 10%;
 }
 
 /* large header and text beneath */
