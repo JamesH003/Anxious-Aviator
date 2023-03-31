@@ -32,7 +32,7 @@ body {
     width: 100%;
     color: #fff;
     /* border-bottom: 1px solid #fff; */
-    border-bottom: 1px solid rgba(164, 71, 6, 1.0);
+    border-bottom: 1px solid #934106;
     align-items: center;
     background-color: rgb(16, 58, 85);
 }
@@ -115,7 +115,7 @@ body {
   }
   
   .openbtn:hover {
-    background-color: rgb(142, 71, 86);
+    background-color: #934106;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -134,7 +134,7 @@ body {
 .cover-text {
     width: 90%;
     height: 33%;
-    background-color: rgba(164, 71, 6, 1.0);
+    background-color: #934106;
     position: absolute;
     top: 383px; 
     /* transform: rotate(-35deg); */
@@ -164,8 +164,8 @@ body {
 }
 
 .cover-text h3:hover {
-    color: rgb(142, 71, 86);
-    border-bottom: 1px solid rgb(142, 71, 86);
+    color: #fd9c35;
+    border-bottom: 1px solid #fd9c35;
 }
 
 .cover-text a {
@@ -208,21 +208,10 @@ body {
     font-weight: 900;
 }
 
-/* buttons */
-.txt-info-1 div {
-    background-color: #000;
-    color: rgb(178, 160, 184);
-    padding: 15px 20px;
-    margin-left: 20px;
-    letter-spacing: 3px;
-    cursor: pointer;
-    width: 38%;
-    font-size: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
+/* buttons on info-section */
 .txt-info-1 .button-div {
+    display: block;
+    margin-left: 18px;
     color: #fff;
     text-decoration: none;
     padding: 15px 20px;
@@ -232,15 +221,12 @@ body {
     font-size: 100%;
     margin-bottom: 40px;
     text-align: center;
-    background-color: rgba(164, 71, 6, 1.0);
-
+    background-color: #934106;
 }
 
+/* buttons on info-section */
 .button-style-black:hover {
     background-color: #fd9c35;
-}
-
-.button-style-black .button-div:hover {
     color: #000;
 }
 
@@ -266,13 +252,13 @@ body {
 
 /* --customer-review--*/
 .cust-review {
-    background-color: #fd9c35;
+    background-color: rgb(16, 58, 85);
 }
 
 .cust-review h3, .cust-review h4 {
     margin: 0 20px 0 20px;
     padding: 20px 0;
-    color: #000;
+    color: #F6EBE0;
     letter-spacing: 3px;
     line-height: 25px;
     font-family: Montserrat, Almarai;
@@ -301,11 +287,11 @@ body {
     line-height: 20px;
     letter-spacing: 2px;
     padding: 25px 10px 25px 10px;
-    font-size: 100%;
+    font-size: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    border-radius: 10%;
 }
 
 .course-info h2, .course-info h3 {
@@ -323,7 +309,7 @@ body {
 /* zoom animation for course-info section */
 .full-day-course:hover, .half-day-course:hover, .online-course:hover {
     animation-name: course-info-zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards ;
 }
 
@@ -332,15 +318,14 @@ body {
         transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
 /*--flight-support--*/
 .container-flight-support{
-    background-color: #81DAF5;
+    background-color: #F6EBE0;
     width: 100%;
-    /* height: 1230px; */
     display: flex;
     flex-direction: column;
 }
@@ -423,8 +408,8 @@ body {
 }
 
 .button-style-orange {
-    background-color: #fd9c35;
-    color: #000;
+    background-color: #934106;
+    color: #fff;
     padding: 15px 30px;
     letter-spacing: 3px;
     margin: 20px 0;
@@ -433,8 +418,8 @@ body {
 }
 
 .button-style-orange:hover {
-    background-color: #000;
-    color: #fd9c35;
+    background-color: #fd9c35;
+    color: #000;
 }
 
 .flex-form > input:hover {
@@ -539,7 +524,7 @@ body {
 
     /* color change-hover over nav-bar links */
     .nav-bar .nav-bar-hover:hover {
-        color: rgba(164, 71, 6, 1.0);
+        color: #934106;
     }
 
     /* to reduce height of cover-text overlay */
@@ -561,8 +546,8 @@ body {
 
     /* sign-up text */
     .cover-text h3:hover {
-        color: rgb(16, 58, 85);
-        border-bottom: 1px solid rgb(16, 58, 85);
+        color: #000;
+        border-bottom: 1px solid #000;
     }
 
     .cover-text a {
@@ -591,12 +576,12 @@ body {
     /* upper large text */
     .txt-info-1 h3 {
         font-size: 180%;
-        margin: 30px 20px 20px 30px;
+        margin: 30px 20px 20px 20px;
     }
     
     /* paragraph under large text */
     .txt-info-1 p {
-        margin: 10px 20px 36px 30px;
+        margin: 10px 20px 36px 20px;
     }
 
     /* sign-up button */
@@ -666,9 +651,9 @@ body {
 
     /* flight-support */
     /* margin for txt - flight-support */
-    .txt-support-1 {
+    /* .txt-support-1 {
         margin: 20px 0 0 -10px;
-    }
+    } */
 
     /* re-size youtube video */
     .flight-support iframe {
