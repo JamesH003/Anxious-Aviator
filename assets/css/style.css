@@ -252,13 +252,13 @@ body {
 
 /* --customer-review--*/
 .cust-review {
-    background-color: rgb(16, 58, 85);
+    background-color: #255C7E;
 }
 
 .cust-review h3, .cust-review h4 {
     margin: 0 20px 0 20px;
     padding: 20px 0;
-    color: #F6EBE0;
+    color: #fff;
     letter-spacing: 3px;
     line-height: 25px;
     font-family: Montserrat, Almarai;
@@ -584,12 +584,6 @@ body {
         margin: 10px 20px 36px 20px;
     }
 
-    /* sign-up button */
-    .txt-info-1 div {
-        margin-left: 0px;
-        text-transform: uppercase; 
-    }
-   
     /* flexbox for bottom image, heading and text */
     .media-750px-info2 {
         display: flex;
@@ -623,11 +617,6 @@ body {
         margin: 25px 20px 36px 20px;
     }
 
-    /* sign-up button */
-    #button-media-query {
-        margin-left: 30px;
-    }
-
     /* learn-more button */
      div .button-style-black {
         margin-left: 20px;
@@ -650,11 +639,6 @@ body {
     }
 
     /* flight-support */
-    /* margin for txt - flight-support */
-    /* .txt-support-1 {
-        margin: 20px 0 0 -10px;
-    } */
-
     /* re-size youtube video */
     .flight-support iframe {
         width: 710px;
@@ -710,6 +694,45 @@ body {
         width: 21%;
         font-size: 135%;
         margin-left: 20px;
+    }
+
+    /* info-section */
+    /* large img */
+    .plane-window {
+        width: 50%;
+        margin: 50px 30px 40px 30px;
+    }
+
+    /* upper large text */
+    .txt-info-1 h3 {
+        font-size: 200%;
+        margin: 140px 20px 20px 30px;
+    }
+
+    /* paragraph under large text */
+    .txt-info-1 p {
+        margin: 10px 20px 40px 30px;
+        line-height: 35px;
+    }
+
+    /* bottom large text */
+    #heading-media-query {
+        margin: 180px 30px 20px 30px;
+    }
+
+    /* bottom text */
+    #text-media-query {
+        margin: 30px 10px 40px 30px;
+    }
+
+    .txt-info-1 .button-div {
+        margin-left: 30px;
+    }
+
+    /* large img */
+    .vert-storm-clouds {
+        width: 50%;
+        margin: 60px 30px 40px 30px;
     }
 
     /* cust-review section */
