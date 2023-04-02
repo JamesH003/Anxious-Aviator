@@ -137,7 +137,7 @@ body {
     height: 33%;
     background-color: #934106;
     position: absolute;
-    top: 380px; 
+    top: 383px; 
     /* transform: rotate(-35deg); */
     border-top-right-radius: 60px;
     border-bottom-right-radius: 10px;
@@ -145,8 +145,8 @@ body {
 
 /* large text on cover-text overlay */
 .cover-text h2 {
-    font-size: 170%;
-    margin: 0 10px 10px 10px;
+    font-size: 200%;
+    margin: 10px 10px 10px 10px;
     padding-top: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
