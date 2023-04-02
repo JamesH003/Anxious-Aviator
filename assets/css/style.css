@@ -515,7 +515,7 @@ body {
 /* --confirmation.html - destination upon submission of sign-up form-- */
 /* background img for confirmation page */
 .confirmation-page {
-    background: url(/assets/images/paper-plane.jpg) no-repeat center;
+    background: url(../images/paper-plane.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
 }
