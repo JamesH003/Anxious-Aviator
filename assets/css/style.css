@@ -160,10 +160,10 @@ body {
     text-decoration: none;
     border-bottom: 1px solid #fff;
     color: #fff;
-    font-size: 75%;
+    font-size: 100%;
     text-transform: uppercase;
-    width: 40%;
     letter-spacing: 3px;
+    display: inline-block;
 }
 
 /* hover over sign-up link below cover-text */
@@ -549,15 +549,6 @@ body {
     font-size: 165%;
 }
 
-/* for screen sizes 375px wide and up */
-
-@media screen and (min-width: 375px) {
-    /* width of sign-up link */
-    .cover-text h3 {
-        width: 34%;
-    }
-}
-
 /* for screen sizes 390px wide and up */
 
 @media screen and (min-width: 390px) {
@@ -617,7 +608,6 @@ body {
 
     /* sign-up text */
     .cover-text h3 {
-        width: 22%;
         margin-top: 30px;
         font-size: 105%;
     }
@@ -796,7 +786,6 @@ body {
     
    /* width of sign-up link */
     .cover-text h3 {
-        width: 21%;
         font-size: 135%;
         margin-left: 20px;
     }
