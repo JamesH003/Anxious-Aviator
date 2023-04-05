@@ -717,7 +717,7 @@ body {
     .flight-support iframe {
         width: 710px;
         height: 400px;
-        margin: 0 20px;
+        margin: 2em auto;
     }
 
     /* check my flight button */
