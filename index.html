@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- meta data keywords for seo -->
+    <meta name="description" content="Anxious Aviator helps passengers get rid of their fear of flying! Located in Dublin, Ireland">
+    <meta name="keywords" content="anxiety fear flying airplane">
+    <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>AnxiousAviator</title>
 </head>
@@ -40,7 +42,7 @@
                 <!-- side-bar -->
                 <!-- ref w3schools -->
                 <div id="mySidebar" class="sidebar">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="#home-link">Home</a>
                     <a href="#courses-link">Courses</a>
                     <a href="#flight-support-link">Flight Support</a>
@@ -49,18 +51,7 @@
                   
                   <div id="main">
                     <button class="openbtn" onclick="openNav()">&#9776;</button>
-                  </div>
-                  <script>
-                    function openNav() {
-                      document.getElementById("mySidebar").style.width = "250px";
-                      document.getElementById("main").style.marginLeft = "250px";
-                    }
-                    
-                    function closeNav() {
-                      document.getElementById("mySidebar").style.width = "0";
-                      document.getElementById("main").style.marginLeft= "0";
-                    }
-                    </script>
+                  </div> 
             </nav>
         </div>
     </header>
@@ -135,29 +126,35 @@
   
         <a href="#sign-up-link">
             <div class="full-day-course">
-                <h2>Full Day Course <i class="fa-solid fa-plane-departure"></i></h2>
-                <h3>6 hours in duration</h3>
-                <h3>Simulator session</h3>
-                <h3>Work with our in-house Psychologist</h3>
-                <h3>Lunch provided</h3>
+                <div class="hover-zoom">
+                    <h2>Full Day Course <i class="fa-solid fa-plane-departure"></i></h2>
+                    <h3>6 hours in duration</h3>
+                    <h3>Simulator session</h3>
+                    <h3>Work with our in-house Psychologist</h3>
+                    <h3>Lunch provided</h3>
+                </div>
             </div>
         </a>
       
         <a href="#sign-up-link">
             <div class="half-day-course">
-                <h2>Half Day Course <i class="fa-solid fa-plane-arrival"></i></h2>
-                <h3>3 hours in duration</h3>
-                <h3>Simulator session</h3>
-                <h3>Work with our in-house Psychologist</h3>
+                <div class="hover-zoom">
+                    <h2>Half Day Course <i class="fa-solid fa-plane-arrival"></i></h2>
+                    <h3>3 hours in duration</h3>
+                    <h3>Simulator session</h3>
+                    <h3>Work with our in-house Psychologist</h3>
+                </div>
             </div>
         </a>
 
         <a href="#sign-up-link">
             <div class="online-course">
-                <h2>Online Course <i class="fa-solid fa-computer"></i></h2>
-                <h3>4 hours of course material online</h3>
-                <h3>Video modules and support function</h3>
-                <h3>Lifetime access</h3>
+                <div class="hover-zoom">
+                    <h2>Online Course <i class="fa-solid fa-computer"></i></h2>
+                    <h3>4 hours of course material online</h3>
+                    <h3>Video modules and support function</h3>
+                    <h3>Lifetime access</h3>
+                </div>
             </div>
         </a>
     </section>
@@ -253,5 +250,18 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/d5aef57d52.js" crossorigin="anonymous"></script>
+   
+   <!-- ref w3schools -->
+   <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
 </body>
 </html>

@@ -80,7 +80,7 @@ body {
   }
   
   /* The sidebar links */
-  .sidebar a {
+  .sidebar a:not(.closebtn) {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -91,6 +91,7 @@ body {
   
   /* hover over nav links in sidebar */
   .sidebar a:hover {
+    color: #fff;
     color: #fd9c35;
   }
   
@@ -100,15 +101,16 @@ body {
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    color: #000;
+    padding: 0 0.5em;
   }
   
   /* The button used to open the sidebar */
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(16, 58, 85);
-    color: white;
+    background-color: #103a55;
+    color: #fff;
     padding:5px 10px;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -134,13 +136,12 @@ body {
 /* --cover-text-- */
 .cover-text {
     width: 90%;
-    height: 33%;
     background-color: #934106;
     position: absolute;
-    top: 383px; 
-    /* transform: rotate(-35deg); */
+    top: 383px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 10px;
+    padding-bottom: 1em;
 }
 
 /* large text on cover-text overlay */
@@ -156,11 +157,11 @@ body {
 /* sign-up link below cover-text */
 .cover-text h3 {
     margin: 51px 0 10px 10px;
-    padding: 10px 0 0 0;
+    padding: 10px 0;
     text-decoration: none;
     border-bottom: 1px solid #fff;
     color: #fff;
-    font-size: 100%;
+    font-size: 75%;
     text-transform: uppercase;
     letter-spacing: 3px;
     display: inline-block;
@@ -294,17 +295,18 @@ body {
 }
 
 /* style the three divs in a column */
-.course-info div {
-    background-color: rgba(0, 0, 0, .6);
+.course-info [class$="-course"] {
+    background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid #fff;
     text-align: center;
     line-height: 20px;
     letter-spacing: 2px;
-    padding: 25px 10px 25px 10px;
+    padding: 25px 10px;
     font-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: calc(100% - 50px);
 }
 
 /* large header and text beneath */
@@ -324,21 +326,14 @@ body {
 }
 
 /* zoom animation for course-info section */
-.full-day-course:hover, .half-day-course:hover, .online-course:hover {
-    animation-name: course-info-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards ;
+.hover-zoom {
+  transition: all 0.5s ease-in-out;
 }
 
-/* zoom animation */
-@keyframes course-info-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.05);
-    }
+.hover-zoom:hover {
+    transform: scale(1.05);
 }
+
 
 /*--flight-support--*/
 /* flexbox for flight-support section and style to column */
@@ -528,7 +523,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 5px 20px 5px;
 }
 
 /* text on confirmation page */
@@ -537,6 +531,11 @@ body {
     letter-spacing: 2px;
     line-height: 50px;
     text-align: center;
+}
+
+#main-link {
+    color: #fd9c35;
+    text-decoration: none;
 }
 
 /* font-size for header text on confirmation page */
@@ -552,12 +551,8 @@ body {
 /* for screen sizes 390px wide and up */
 
 @media screen and (min-width: 390px) {
-    .cover-text {
-        height: 30%;
-    }
-
     /* course-info */
-    .course-info div {
+    .course-info [class$="-course"] {
         font-size: 120%;
     }
 
@@ -593,12 +588,7 @@ body {
 
     /* color change-hover over nav-bar links */
     .nav-bar .nav-bar-hover:hover {
-        color: #934106;
-    }
-
-    /* to reduce height of cover-text overlay */
-    .cover-text {
-        height: 27%;
+        color: #fd9c35;
     }
 
     /* main central text */
@@ -697,7 +687,7 @@ body {
     }
 
     /* to maintain border-bottom alignment */
-    .course-info div {
+    .course-info [class$="-course"] {
         line-height: 20px;
         font-size: 85%;
     }
@@ -773,11 +763,6 @@ body {
 /* for screen sizes 950px wide and up */
 
 @media screen and (min-width: 950px) {
-   /* to increase height of cover-text overlay */
-   .cover-text {
-    height: 31%;
-   }
-
    /* main central text */
    .cover-text h2 {
     font-size: 276%;
@@ -858,7 +843,7 @@ body {
 
     /* youtube video */
     .flight-support iframe {
-        margin: 0 30px 20px 30px;
+        margin: 2em auto;
         width: 890px;
         height: 450px;
     }
@@ -928,11 +913,6 @@ body {
         background-position-y: -75px;
     }
 
-    /* width of cover-text overlay */
-    .cover-text {
-        width: 865px;
-    }
-
     /* info-section */
     /* large img */
     .plane-window {
@@ -963,7 +943,7 @@ body {
 
     /* course-info */
     /* increase size of section and text */
-    .course-info div {
+    .course-info [class$="-course"] {
         line-height: 40px;
         /* to maintain border-bottom alignment */
         font-size: 119%;
