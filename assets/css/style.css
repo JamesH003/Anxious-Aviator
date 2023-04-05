@@ -786,12 +786,14 @@ body {
     .txt-info-1 h3 {
         font-size: 200%;
         margin: 140px 20px 20px 30px;
+        text-align: center;
     }
 
     /* paragraph under large text */
     .txt-info-1 p {
         margin: 10px 30px 40px 30px;
         line-height: 35px;
+        text-align: center;
     }
 
     /* bottom large text */
@@ -805,12 +807,12 @@ body {
     }
 
     .txt-info-1 .button-div {
-        margin-left: 30px;
+        margin-left: 25%;
     }
 
     /* large img */
     .vert-storm-clouds {
-        width: 50%;
+        width: 45%;
         margin: 60px 30px 40px 30px;
     }
 
@@ -922,7 +924,9 @@ body {
 
     /* upper large text */
     .txt-info-1 h3 {
-        font-size: 218%;
+        font-size: 258%;
+        text-align: center;
+        line-height: 1.5em;
     }
 
     /* bottom large text */
@@ -939,6 +943,10 @@ body {
     /* button width */
     .txt-info-1 .button-div {
         width: 15%;
+    }
+
+    .txt-info-1 .button-div {
+        margin-left: 42%;
     }
 
     /* course-info */
