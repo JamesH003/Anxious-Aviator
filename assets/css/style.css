@@ -19,7 +19,7 @@ body {
 /* --hero-image, logo and nav-bar-- */
 .hero-image {
     width: 100%;
-    background: url(../images/plane-contrails.jpg) no-repeat;
+    background: url(../images/plane-contrails.webp) no-repeat;
     background-size: cover;
     background-position: right;
     height: 723px;
@@ -72,7 +72,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background: url(../images/pink-sky-contrails.jpg) no-repeat center;
+    background: url(../images/pink-sky-contrails.webp) no-repeat center;
     background-size: cover;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -287,7 +287,7 @@ body {
 /* --course-info--*/
 /* flex container and background image for section */
 .course-info {
-    background: url(../images/cockpit.jpg) no-repeat center;
+    background: url(../images/cockpit.webp) no-repeat center;
     background-size: cover;
     width: 100%;
     display: flex;
@@ -396,7 +396,7 @@ body {
 /*--sign-up-form-- */
 /* background image for sign-up form */
 .sign-up-form {
-    background: url(../images/paper-plane.jpg) no-repeat center;
+    background: url(../images/paper-plane.webp) no-repeat center;
     width: 100%;
     background-size: cover;
 }
@@ -510,7 +510,7 @@ body {
 /* --confirmation.html - destination upon submission of sign-up form-- */
 /* background img for confirmation page */
 .confirmation-page {
-    background: url(../images/paper-plane.jpg) no-repeat center;
+    background: url(../images/paper-plane.webp) no-repeat center;
     background-size: cover;
     height: 100vh;
 }
