@@ -92,7 +92,7 @@ body {
   /* hover over nav links in sidebar */
   .sidebar a:hover {
     color: #fff;
-    color: #fd9c35;
+    background-color: #fd9c35;
   }
   
   /* Position and style the close button (top right corner) */
@@ -118,7 +118,7 @@ body {
   
   /* hover over open button for sidebar */
   .openbtn:hover {
-    background-color: #934106;
+    background-color: #80d8da;
   }
   
   /* push the page content to the right when you open the sidebar */
@@ -156,12 +156,12 @@ body {
 
 /* sign-up link below cover-text */
 .cover-text h3 {
-    margin: 51px 0 10px 10px;
-    padding: 10px 0;
+    margin: 35px 0 10px 10px;
+    padding: 10px 0 2px 0;
     text-decoration: none;
     border-bottom: 1px solid #fff;
     color: #fff;
-    font-size: 75%;
+    font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 3px;
     display: inline-block;
@@ -169,8 +169,8 @@ body {
 
 /* hover over sign-up link below cover-text */
 .cover-text h3:hover {
-    color: #fd9c35;
-    border-bottom: 1px solid #fd9c35;
+    color: #80d8da;
+    border-bottom: 1px solid #80d8da;
 }
 
 /* remove blue link underline */
