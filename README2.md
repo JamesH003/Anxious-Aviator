@@ -77,29 +77,16 @@ I used [coolors.co](https://coolors.co/103a55-ffffff-934106-f6ebe0-255c7e-fd9c35
 
 ![Color Palette](documentation/color-palette.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 If you've used CSS `:root` variables, consider also including a code snippet here!
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
 
@@ -107,30 +94,30 @@ Consider adding a link to each font used, and the Font Awesome site if used (or 
 
 Example:
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+- [Lato](https://fonts.google.com/specimen/Lato) was used for the primary headers and titles.
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for all other secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 In this section, list all of your user stories for the project.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-
+- As a new site user, I would like to understand the purpose of the site, so that I can decide if it matches my needs.
+- As a new site user, I would like to clearly see what's on offer, so that I can make a decision.
+- As a new site user, I would like to be able to navigate the site easily, so that I don't waste my time.
+- As a new site user, I would like to sign-up with minimal clicks, so that I don't waste my time.
+- As a new site user, I would like to access social media links, so that I can assess the product.
+<!-- 
 ### Returning Site Users
 
 - As a returning site user, I would like to ____________, so that I can ____________.
@@ -145,17 +132,17 @@ In this section, list all of your user stories for the project.
 - As a site administrator, I should be able to ____________, so that I can ____________.
 - As a site administrator, I should be able to ____________, so that I can ____________.
 - As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to ____________, so that I can ____________. -->
 
 ## Wireframes
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 In this section, display your wireframe screenshots using a Markdown `table`.
 
 Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
@@ -184,15 +171,15 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Repeat for any addition wireframe pages you have.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 In this section, you should go over the different parts of your project,
 and describe each in a sentence or so.
@@ -205,7 +192,7 @@ For some/all of your features, you may choose to reference the specific project 
 
 IMPORTANT: Remember to always include a screenshot of each individual feature!
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### Existing Features
 
