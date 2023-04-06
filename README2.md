@@ -2,99 +2,31 @@
 
 Anxious Aviator is a site that hopes to help people overcome their fear of flying. The theme of the site is broken down into two parts; information about the courses provided by Anxious Aviator and information about common causes of anxiety surrounding flying. The site is targeted at people of all ages who struggle with a fear of flying and who wish to overcome it. Users will find the site useful as the site in intuitive, clearly laid out and can access the information and sign up to a course with minimal clicks. 
 
-![Responsive Screenshot](documentation/responsive-screenshot.png)
+![responsive screenshot](documentation/responsive-screenshot.png)
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://jamesh003.github.io/Anxious-Aviator
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ## UX
 
 As the concept of the company is simple and straight forward, I wanted the design of the site to reflect this. I wanted to have a single page website with a navbar at the top with links to the various sections. I liked the idea of a large hero-image as the landing page with a short statement or question empahsised in the middle to instantly highlight the intention of the website. I searched for samples of website layouts to find inspiration. This one, Almar from squarespace was clean, concise and to the point so I used that as my inspiration. https://www.squarespace.com/templates/almar-fluid-demo 
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### Colour Scheme
 
 I elected to go with a shade dark blue as the core color for the site as it is associated with characteristics of trust, responsibility and calmness. I chose white, cream, and shades of brown as complimentary colors.
 
-![Color Screenshot Blue](documentation/color-screenshot-blue.png)
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain your colours and the colour scheme.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
+![color screenshot blue](documentation/color-screenshot-blue.png)
 
 - `#FFFFFF` used for primary text.
 - `#FD9C35` used for primary highlights.
 - `#000000` used for secondary text.
 - `#FD9C35` used for secondary highlights.
 
-
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 I used [coolors.co](https://coolors.co/103a55-ffffff-934106-f6ebe0-255c7e-fd9c35) to generate my colour palette.
 
-![Color Palette](documentation/color-palette.png)
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
+![color palette](documentation/color-palette.png)
 
 
 ### Typography
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 - [Lato](https://fonts.google.com/specimen/Lato) was used for the primary headers and titles.
 
@@ -104,12 +36,6 @@ Example:
 
 ## User Stories
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 ### New Site Users
 
 - As a new site user, I would like to understand the purpose of the site, so that I can decide if it matches my needs.
@@ -117,32 +43,8 @@ In this section, list all of your user stories for the project.
 - As a new site user, I would like to be able to navigate the site easily, so that I don't waste my time.
 - As a new site user, I would like to sign-up with minimal clicks, so that I don't waste my time.
 - As a new site user, I would like to access social media links, so that I can assess the product.
-<!-- 
-### Returning Site Users
-
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-
-### Site Admin
-
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________. -->
 
 ## Wireframes
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
@@ -151,130 +53,123 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Mobile | ![screenshot](documentation/wireframes/homepage-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/homepage-tablet.png) |
+| Desktop | ![screenshot](documentation/wireframes/homepage-desktop.png) |
 
-### About Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
-
-### Contact Page Wireframes
+### Info Section Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+| Mobile | ![screenshot](documentation/wireframes/info-section-mobile.png) |
+| Desktop | ![screenshot](documentation/wireframes/info-section-desktop.png) |
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Course Info Section Wireframes
 
-Repeat for any addition wireframe pages you have.
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/course-info-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/course-info-tablet.png) |
+| Desktop | ![screenshot](documentation/wireframes/course-info-desktop.png) |
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
+### Flight Support Section Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/flight-support-mobile.png) |
+| Desktop | ![screenshot](documentation/wireframes/flight-support-mobile.png) |
+
+### Sign-Up Form  Section Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/sign-up-mobile.png) |
+
 
 ## Features
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 ### Existing Features
 
-- **Title for feature #1**
+- **Navigation**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    *The site is a single page site with four different sections, easily accessible via sidebar/navbar and utilising a smooth scroll function throughout.*
 
-![screenshot](documentation/feature01.png)
+    #### - Sidebar
 
-- **Title for feature #2**
+    - Below 750px there is a collapsed sidebar with an intuitive open button in the center of the screen below the logo. Upon pressing the open button, a sidebar emerges from the left hand side of the screen and four navigation options are displayed, along with an option to close the sidebar in the top right corner. The background image is predominantly light pink, of a plane with white contrails. The black text on light pink background provides a good contrast ratio . The four navigation options are 'Home', 'Courses', 'Flight Support' and Sign-Up'. Pressing any of this options will navigate the site to the selected section utilising a smooth scroll function utilised across the whole site. This provides the user with a clear map of the site and efficient navigation.
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+        ![side-bar screenshot](documentation/sidebar-screenshot.png)
 
-![screenshot](documentation/feature02.png)
 
-- **Title for feature #3**
+   #### - Navbar
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Above 750px, a conventional inline navbar is displayed directly beneath the logo. The four naviagtion options are displayed in white text on a dark navy background providing a good contrast ratio to the user. Above 1200px the navbar moves to the top right of the screen in-line with the logo which has moved to the top left of the screen.
 
-![screenshot](documentation/feature03.png)
+        ![navbar screenshot](documentation/navbar-screenshot.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- **Home Page**
 
-Repeat as necessary for as many features as your site contains.
+    - The home page consists of an image with a text overlay. The image is a dynamic shot of a plane overhead in the sky with contrails trailing behind. The dark blue sky is consistent with the overall color scheme of the site. The text overly is eye catching and the text indicates the purpose of the site to the user. Below the text overlay there is a 'Sign Up Now' link which will navigate the user directly to the sign-up form at the bottom of the site.
 
-Hint: the more, the merrier!
+        ![screenshot](documentation/homepage-screenshot.png)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- **Info Section**
+
+    - The Info Section provides the user with a brief overview of what's on offer from Anxious Aviator. It consists of two images and two areas of text, both featuring headline questions to draw the user in. Each section also features a 'call-to-action' in the form of a 'Sign-Up' button, which links to the sign-up form, and a 'Learn More' button, which links to the Flight Support section. The first area mentions the amount of course options along with a link to the course options section. The second area of text refers to the Flight Support section of the site and its function. It also features a link to the FLight Support section. The section is fully repsonsive and the two images are different dependent on the screen size being above or below 750px.
+
+        ![screenshot](documentation/info-section-screenshot.png)
+
+- **Customer Reviews**
+
+    - There are two customer reviews displayed on the site. The reviews will give the user confidence in the quality of the products on offer from Anxious Aviator. The display of the reviews is consistent with the color scheme of the site and features a strong contrast ratio for accessibility. The two reviews frame the Course Info section on either side, emphasising the quality of the courses offered in between, to the user.
+
+        ![screenshot](documentation/cust-review-screenshot.png)
+
+- **Course Info Section**
+
+    - The Course Info section provides the user with information about the three different course options on offer in a clear and concise way. The section is fully responsive and is displayed as a column below 750px and as a row above 750px. The background image features an airplane simulator cockpit indicating to the user the method of delivery of the courses. The background image has a black transparent overlay with white text on top displaying the course information. The section highlights each course option with an eye catching zoom animation on mouse hover.
+
+        ![screenshot](documentation/course-info-screenshot.png)
+
+- **Flight Support**
+
+    - The Flight Support section is the 'knowledge' section of the site. This section will provide the user with information about turbulence, aircraft strength testing and also turbulence forecasting. It consists of a headline question with an icon to improve the user experience. The body of text below gives a description of turbulence. The embedded Youtube video has intuitive controls. This enhances the user experience as they have the option to play the video, control the volume, open the video on Youtube itself in a separate tab and also to view the video in full-screen. The text beneath the video refers to turbulence forecasting and provides a link to an external site (opens in a new tab) so the user can check to see if they will encounter turbulence on their upcoming flight. There is also a 'call-to-action' in the form of a button 'Check My Flight' which also links to the same external site (https://turbli.com/) in a new tab.
+
+        ![screenshot](documentation/flight-support-screenshot.png)
+
+- **Sign-Up Form**
+
+    - The Sign-Up form at the bottom of the site provides the user with an opportunity to sign up for one of the courses and to recieve more information from Anxious Aviator. It features a headline statment with an icon, empowering the user to sign up for one of the courses. The sign up form is clear and concise and features a background image with a black transparent overlay. The image of a paper plane is light and up-beat and provides the user with a sense of positivity around flying. Upon submission of the form the user is presented with a confirmation page, confirming submission of the form and then automatically redirecting the user back to the home landing page.
+
+        ![screenshot](documentation/sign-up-screenshot.png)
+
+- **Social Links**
+
+    - At the foot of the page the social links are displayed. They provide the user with links directly to the four social media platforms used by Anxious Aviator; Facebook, Instagram, Twitter and Youtube. They are displayed to the user using their logo's which are clickable links. The social media pages open in a separate tab, preventing the user having to use the back function to return to the Anxious Aviator site, improving the user experience. They are displayed in white on a dark blue background, in the same way as the header.
+
+        ![screenshot](documentation/social-links-screenshot.png)
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Stripe Payment Function
+    - In the future I would like to add a function to accept payments through Stripe so users can purchase courses directly through the site.
+- Flip cards for Course Info Section
+    - I would like to add flipcards to the Course Info section with pricing information on the other side of the flip card.
+    https://www.w3schools.com/howto/howto_css_flip_card.asp
+- Embedded Flight Radar
+    - I would like to add an embedded map of FLightradar 24 to the Flight Support Section.
 
 ## Tools & Technologies Used
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
+- [JavaScript](https://www.javascript.com) used for implementation of side-bar navigation.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
-
+-
 ## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
@@ -321,53 +216,48 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
-### Local VS Deployment
+<!-- ### Local VS Deployment
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 In this section you need to reference where you got your content, media, and extra help from.
 It is common practice to use code from other repositories and tutorials,
 however, it is important to be very specific about these sources to avoid plagiarism.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### Content
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
 A few examples have been provided below to give you some ideas.
 
 Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [W3Schools](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) | header up to 750px | collapsed sidebar |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2) | entire site | smooth scroll |
+| [W3Schools](https://www.w3schools.com/tags/tag_iframe.ASP) | flight support section | iframe |
+| [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/?child=first) | home page | cover text html |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+[CSS Tricks](https://css-tricks.com/focusing-background-image-precise-location-percentages/) | home-page | background-image position |
 
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
 A few examples have been provided below to give you some ideas.
@@ -379,19 +269,13 @@ Ideally, you should provide an actual link to every media file used, not just a 
 The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
 by sending yourself the following command: `!freemedia`.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Pexels](https://www.pexels.com) | entire site | image | all images |
+| [PNG EGG](https://www.pngegg.com/en/png-zgkkr) | entire site | favicon | entire site |
+| [Youtube](https://www.youtube.com/embed/--LTYRTKV_A) | video | flight support |
 
 ### Acknowledgements
 
@@ -405,5 +289,5 @@ A few examples have been provided below to give you some ideas.
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my , for believing in me, and allowing me to make this transition into software development.
 - I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
