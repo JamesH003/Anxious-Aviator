@@ -13,7 +13,7 @@ html {
 
 body {
     color: #fff;
-    font-family: Almaria, Lato;
+    font-family: Lato, Almarai;
 }
 
 /* --hero-image, logo and nav-bar-- */
@@ -34,7 +34,7 @@ body {
     color: #fff;
     border-bottom: 1px solid #fff;
     align-items: center;
-    background-color: rgb(16, 58, 85);
+    background-color: #103a55;
 }
 
 .container-header a {
