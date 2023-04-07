@@ -226,24 +226,7 @@ Use this space to discuss any differences between the local version you've devel
 
 ## Credits
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 ### Content
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -254,6 +237,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/?child=first) | home page | cover text html |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 [CSS Tricks](https://css-tricks.com/focusing-background-image-precise-location-percentages/) | home-page | background-image position |
+[FlyFearless](https://www.flyfearless.ie/#pick-your-course) | entire site | content |
+[Fly Confidently](https://flyconfidently.com/scared-of-turbulence/) | flight support section | content |
+[Squarespace](https://www.squarespace.com/templates/almar-fluid-demo) | entire site | design layout |
 
 ### Media
 
@@ -273,7 +259,14 @@ by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | all images |
+| [Pexels](https://www.pexels.com/photo/photo-of-cockpit-3942318/) | course info section | image | cockpit |
+| [Pexels](https://www.pexels.com/photo/silhouette-photo-of-man-throw-paper-plane-1262304/) | sign-up form, confirmation page | image | paper plane |
+| [Pexels](https://www.pexels.com/photo/photo-of-airplane-with-smoke-trail-2088203/) | side bar | image | plane contrails on pink sky |
+| [Pexels](https://www.pexels.com/photo/white-airplane-with-smoke-under-blue-sky-728824/) | home page | image | plane contrails |
+| [Pexels](https://www.pexels.com/photo/airplane-window-seat-view-of-white-clouds-4004058/) | info section | image | plane window |
+| [Pexels](https://www.pexels.com/photo/heavy-clouds-1828305/) | info section | image | storm clouds |
+| [Pexels](https://www.pexels.com/photo/grey-white-clouds-158163/) | info section | image | storm clouds |
+| [Pexels](https://www.pexels.com/photo/miniature-of-a-plane-255514/) | info section | image | toy plane |
 | [PNG EGG](https://www.pngegg.com/en/png-zgkkr) | entire site | favicon | entire site |
 | [Youtube](https://www.youtube.com/embed/--LTYRTKV_A) | flight support | video | iframe |
 
@@ -289,4 +282,4 @@ A few examples have been provided below to give you some ideas.
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my girlfriend Caoimhe, for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my girlfriend Caoimhe, for supporting me in undertaking this course.
