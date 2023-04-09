@@ -1,6 +1,6 @@
 # ANXIOUS AVIATOR
 
-Anxious Aviator is a site that hopes to help people overcome their fear of flying. The theme of the site is broken down into two parts; information about the courses provided by Anxious Aviator and information about common causes of anxiety surrounding flying. The site is targeted at people of all ages who struggle with a fear of flying and who wish to overcome it. Users will find the site useful as the site in intuitive, clearly laid out and can access the information and sign up to a course with minimal clicks. 
+Welcome to Anxious Aviator! Anxious Aviator is a site that hopes to help people overcome their fear of flying. The theme of the site is broken down into two parts; information about the courses provided by Anxious Aviator and information about common causes of anxiety surrounding flying. The site is targeted at people of all ages who struggle with a fear of flying and who wish to overcome it. Users will find the site useful as the site in intuitive, clearly laid out and can access the information and sign up to a course with minimal clicks. 
 
 ![responsive screenshot](documentation/responsive-screenshot.png)
 
