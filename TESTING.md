@@ -10,7 +10,8 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Entire site | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamesh003.github.io%2FAnxious-Aviator%2F) | ![screenshot](documentation/testing/html-validator-screenshot.png) | Pass: No Errors|
+| index.html | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamesh003.github.io%2FAnxious-Aviator%2F) | ![screenshot](documentation/testing/html-validator-screenshot.png) | Pass: No Errors|
+| confirmation.html | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamesh003.github.io%2FAnxious-Aviator%2Fconfirmation.html) | ![screenshot](documentation/testing/confirmation-html-validator.png) | Pass: No Errors|
 
 ### CSS
 
