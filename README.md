@@ -169,7 +169,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
--
+
 ## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
