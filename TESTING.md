@@ -28,7 +28,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
 | Chrome | ![screenshot](documentation/testing/chrome-test.png) | Works as expected |
-| Firefox | ![screenshot](documentation/testing/firefox-test.png) | problem with info section images width responsiveness above 750px |
+| Firefox | ![screenshot](documentation/testing/firefox-test.png) | Problem with info section images width responsiveness above 750px. All else works as expected |
 | Edge | ![screenshot](documentation/testing/edge-test.png) | Works as expected |
 | Safari | ![screenshot](documentation/testing/safari-test.png) | Works as expected |
 | Brave | ![screenshot](documentation/testing/brave-test.png) | Works as expected |
@@ -71,13 +71,13 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
     ![screenshot](documentation/contrast-ratio-bug.png)
     ![screenshot](documentation/contrast-ratio-bugfix.png)
 
-    - To fix this, I changed the background-color of the cover-text section to #934106.
+    - To fix this, I changed the background-color of the cover-text section to `#934106`.
 
 - CSS - Home page background image positioning on full screen
 
     ![screenshot](documentation/home-page-img-bug.png)
 
-    - To fix this, I used background-position-y: -75px;.
+    - To fix this, I used `background-position-y: -75px;`.
 
 - CSS - Overflow-x scrolling on mobile screens - width property found in youtube link
 
@@ -91,4 +91,33 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Unfixed Bugs
 
-There are no remaining bugs that I am aware of.
+- On Firefox the image of the plane window becomes distorted on screen sizes above 750px.
+
+    ![screenshot](documentation/testing/firefox-bug.png)
+
+    - Attempted fix: I tried to amend the width property in the media query for 750px and above but it caused the image to distort on other browsers. I also tried to add a Mozilla prefix but it didn't work. 
+    
+    ```
+    .plane-window {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 46%;
+        margin: 50px 20px 40px 20px;
+        border-radius: 10%;
+    }
+    ```
+
+    I also tried to add `min-width: 46%;` to the image class but it caused the image to break at larger sizes.
+
+     ```
+    .plane-window {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 46%;
+        min-width: 46%;
+        margin: 50px 20px 40px 20px;
+        border-radius: 10%;
+    }
+    ```
