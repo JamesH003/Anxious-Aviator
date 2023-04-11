@@ -1,13 +1,13 @@
 # ANXIOUS AVIATOR
 
-Welcome to Anxious Aviator! Anxious Aviator is a site that hopes to help people overcome their fear of flying. The theme of the site is broken down into two parts; information about the courses provided by Anxious Aviator and information about common causes of anxiety surrounding flying. The site is targeted at people of all ages who struggle with a fear of flying and who wish to overcome it. Users will find the site useful as the site in intuitive, clearly laid out and can access the information and sign up to a course with minimal clicks. 
+Welcome to Anxious Aviator! Anxious Aviator is a site that hopes to help people overcome their fear of flying. The theme of the site is broken down into two parts; information about the courses provided by Anxious Aviator and information about common causes of anxiety surrounding flying. The site is targeted at people of all ages who struggle with a fear of flying and who wish to overcome it. Users will find the site useful as the site is intuitive, clearly laid out and can access the information and sign up to a course with minimal clicks. 
 
 ![responsive screenshot](documentation/responsive-screenshot.png)
 
 
 ## UX
 
-As the concept of the company is simple and straight forward, I wanted the design of the site to reflect this. I wanted to have a single page website with a navbar at the top with links to the various sections. I liked the idea of a large hero-image as the landing page with a short statement or question empahsised in the middle to instantly highlight the intention of the website. I searched for samples of website layouts to find inspiration. This one, Almar from squarespace was clean, concise and to the point so I used that as my inspiration. https://www.squarespace.com/templates/almar-fluid-demo 
+As the concept of the company is simple and straight forward, I wanted the design of the site to reflect this. I wanted to have a single page website with a navbar at the top with links to the various sections. I liked the idea of a large hero-image as the landing page with a short statement or question emphasised in the middle to instantly highlight the intention of the website. I searched for samples of website layouts to find inspiration. This one, Almar from squarespace was clean, concise and to the point so I used that as my inspiration. https://www.squarespace.com/templates/almar-fluid-demo 
 
 
 ### Colour Scheme
@@ -109,13 +109,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 - **Home Page**
 
-    - The home page consists of an image with a text overlay. The image is a dynamic shot of a plane overhead in the sky with contrails trailing behind. The dark blue sky is consistent with the overall color scheme of the site. The text overly is eye catching and the text indicates the purpose of the site to the user. Below the text overlay there is a 'Sign Up Now' link which will navigate the user directly to the sign-up form at the bottom of the site.
+    - The home page consists of an image with a text overlay. The image is a dynamic shot of a plane overhead in the sky with contrails trailing behind. The dark blue sky is consistent with the overall color scheme of the site. The text overlay is eye catching and the text indicates the purpose of the site to the user. Below the text overlay there is a 'Sign Up Now' link which will navigate the user directly to the sign-up form at the bottom of the site.
 
         ![screenshot](documentation/homepage-screenshot.png)
 
 - **Info Section**
 
-    - The Info Section provides the user with a brief overview of what's on offer from Anxious Aviator. It consists of two images and two areas of text, both featuring headline questions to draw the user in. Each section also features a 'call-to-action' in the form of a 'Sign-Up' button, which links to the sign-up form, and a 'Learn More' button, which links to the Flight Support section. The first area mentions the amount of course options along with a link to the course options section. The second area of text refers to the Flight Support section of the site and its function. It also features a link to the FLight Support section. The section is fully repsonsive and the two images are different dependent on the screen size being above or below 750px.
+    - The Info Section provides the user with a brief overview of what's on offer from Anxious Aviator. It consists of two images and two areas of text, both featuring headline questions to draw the user in. Each section also features a 'call-to-action' in the form of a 'Sign-Up' button, which links to the sign-up form, and a 'Learn More' button, which links to the Flight Support section. The first area mentions the amount of course options along with a link to the course options section. The second area of text refers to the Flight Support section of the site and its function. It also features a link to the Flight Support section. The section is fully repsonsive and the two images are different dependent on the screen size being above or below 750px.
 
         ![screenshot](documentation/info-section-screenshot.png)
 
@@ -127,7 +127,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 - **Course Info Section**
 
-    - The Course Info section provides the user with information about the three different course options on offer in a clear and concise way. The section is fully responsive and is displayed as a column below 750px and as a row above 750px. The background image features an airplane simulator cockpit indicating to the user the method of delivery of the courses. The background image has a black transparent overlay with white text on top displaying the course information. The section highlights each course option with an eye catching zoom animation on mouse hover.
+    - The Course Info section provides the user with information about the three different course options on offer in a clear and concise way. The section is fully responsive and is displayed as a column below 750px and as a row above 750px. The background image features an airplane simulator cockpit indicating to the user the method of delivery of the courses. The background image has a black transparent overlay with white text on top displaying the course information. The section highlights each course option with an eye catching zoom transition on mouse hover.
 
         ![screenshot](documentation/course-info-screenshot.png)
 
@@ -157,7 +157,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - I would like to add flipcards to the Course Info section with pricing information on the other side of the flip card.
     https://www.w3schools.com/howto/howto_css_flip_card.asp
 - Embedded Flight Radar
-    - I would like to add an embedded map of FLightradar 24 to the Flight Support Section.
+    - I would like to add an embedded map of Flightradar 24 to the Flight Support Section.
 
 ## Tools & Technologies Used
 
