@@ -68,20 +68,20 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 - CSS - Contrast ratio of normal text on cover-text background fail.
 
-    ![screenshot](documentation/contrast-ratio-bug.png)
-    ![screenshot](documentation/contrast-ratio-bugfix.png)
+    ![screenshot](documentation/testing/contrast-ratio-bug.png)
+    ![screenshot](documentation/testing/contrast-ratio-bugfix.png)
 
     - To fix this, I changed the background-color of the cover-text section to `#934106`.
 
 - CSS - Home page background image positioning on full screen
 
-    ![screenshot](documentation/home-page-img-bug.png)
+    ![screenshot](documentation/testing/home-page-img-bug.png)
 
     - To fix this, I used `background-position-y: -75px;`.
 
 - CSS - Overflow-x scrolling on mobile screens - width property found in youtube link
 
-    ![screenshot](documentation/iframe-bug.png)
+    ![screenshot](documentation/testing/iframe-bug.png)
 
     - To fix this, I removed the width property from link.
 
@@ -91,7 +91,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 - HTML - Upon selection of the close button on the sidebar, the page would always scroll back to the top of the home page.
 
-    ![screenshot](documentation/sidebar-bug.png)
+    ![screenshot](documentation/testing/sidebar-bug.png)
 
     - To fix this, I changed the HTML code from this: 
         ```
