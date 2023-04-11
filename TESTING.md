@@ -89,6 +89,34 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
     - To fix this, I removed the keyframes and added an additional div with class="hover-zoom" to wrap the text. Targeted "hover-zoom" div with an ease-in-out transition.
 
+- HTML - Upon selection of the close button on the sidebar, the page would always scroll back to the top of the home page.
+
+    ![screenshot](documentation/sidebar-bug.png)
+
+    - To fix this, I changed the HTML code from this: 
+        ```
+            <div id="mySidebar" class="sidebar">
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#home-link">Home</a>
+                <a href="#courses-link">Courses</a>
+                <a href="#flight-support-link">Flight Support</a>
+                <a href="#sign-up-link">Sign-Up</a>
+            </div>
+         ```
+
+         To this:
+
+         ```
+            <div id="mySidebar" class="sidebar">
+                <span class="closebtn" onclick="closeNav()">&times;</span>
+                <a href="#home-link">Home</a>
+                <a href="#courses-link">Courses</a>
+                <a href="#flight-support-link">Flight Support</a>
+                <a href="#sign-up-link">Sign-Up</a>
+            </div>
+        ```
+
+
 ## Unfixed Bugs
 
 - On Firefox the image of the plane window becomes distorted on screen sizes above 750px.
