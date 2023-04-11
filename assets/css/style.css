@@ -109,6 +109,7 @@ body {
     background-color: #fd9c35;
   }
 
+  /* hover over close button in sidebar */
   span.closebtn:hover {
     color: #fff;
     background-color: #fd9c35;
