@@ -94,7 +94,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
     ![screenshot](documentation/testing/sidebar-bug.png)
 
     - To fix this, I changed the HTML code from this: 
-        ```
+        ``` HTML
             <div id="mySidebar" class="sidebar">
                 <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#home-link">Home</a>
@@ -106,7 +106,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
          To this:
 
-         ```
+         ``` HTML
             <div id="mySidebar" class="sidebar">
                 <span class="closebtn" onclick="closeNav()">&times;</span>
                 <a href="#home-link">Home</a>
@@ -125,7 +125,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
     - Attempted fix: I tried to amend the width property in the media query for 750px and above but it caused the image to distort on other browsers. I also tried to add a Mozilla prefix but it didn't work. 
     
-    ```
+    ``` CSS
     .plane-window {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -138,7 +138,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
     I also tried to add `min-width: 46%;` to the image class but it caused the image to break at larger sizes.
 
-     ```
+     ``` CSS
     .plane-window {
         display: -webkit-box;
         display: -ms-flexbox;
