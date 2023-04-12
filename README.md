@@ -51,20 +51,33 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Home Page Wireframes
 
+<details>
+<summary>Click to see the Home Page Wireframes</summary>
+
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/homepage-mobile.png) |
 | Tablet | ![screenshot](documentation/wireframes/homepage-tablet.png) |
 | Desktop | ![screenshot](documentation/wireframes/homepage-desktop.png) |
 
+</details>
+
 ### Info Section Wireframes
+
+<details>
+<summary>Click to see the Info Section Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/info-section-mobile.png) |
 | Desktop | ![screenshot](documentation/wireframes/info-section-desktop.png) |
 
+</details>
+
 ### Course Info Section Wireframes
+
+<details>
+<summary>Click to see the Course Info Section Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
@@ -72,19 +85,30 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/course-info-tablet.png) |
 | Desktop | ![screenshot](documentation/wireframes/course-info-desktop.png) |
 
+</details>
+
 ### Flight Support Section Wireframes
+
+<details>
+<summary>Click to see the Flight Support Section Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/flight-support-mobile.png) |
 | Desktop | ![screenshot](documentation/wireframes/flight-support-mobile.png) |
 
+</details>
+
 ### Sign-Up Form  Section Wireframes
+
+<details>
+<summary>Click to see the Sign-Up Form Section Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/sign-up-mobile.png) |
 
+</details>
 
 ## Features
 
