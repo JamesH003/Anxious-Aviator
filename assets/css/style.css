@@ -1,4 +1,4 @@
-/*--google fonts-- */
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Lato&family=Montserrat:ital,wght@0,300;1,400&display=swap');
 
 * {
@@ -16,7 +16,7 @@ body {
     font-family: Lato, Almarai;
 }
 
-/* --hero-image, logo and nav-bar-- */
+/* hero-image, logo and nav-bar */
 .hero-image {
     width: 100%;
     background: url(../images/plane-contrails.webp) no-repeat;
@@ -73,8 +73,8 @@ body {
     display: none;
 }
 
-/* --side-bar-- */
-/* <!-- ref w3schools https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp --> */
+/* side-bar */
+/* ref w3schools https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp */
 .sidebar {
     height: 100%; /* 100% Full-height */
     width: 0; 
@@ -155,7 +155,7 @@ body {
     .sidebar a {font-size: 18px;}
   }
 
-/* --cover-text-- */
+/* cover-text */
 .cover-text {
     width: 90%;
     background-color: #934106;
@@ -200,7 +200,7 @@ body {
     text-decoration: none;
 }
 
-/* --info section-- */
+/* info section */
 .container-info {
     background-color: #F6EBE0;
     width: 100%;
@@ -287,7 +287,7 @@ body {
     display: none;
 }
 
-/* --customer-review--*/
+/* customer-review */
 /* background colour for cust-review section */
 .cust-review {
     background-color: #255C7E;
@@ -311,7 +311,7 @@ body {
     padding: 2px 0 30px 0;
 }
 
-/* --course-info--*/
+/* course-info */
 /* flex container and background image for section */
 .course-info {
     background: url(../images/cockpit.webp) no-repeat center;
@@ -378,7 +378,7 @@ body {
 }
 
 
-/*--flight-support--*/
+/* flight-support */
 /* flexbox for flight-support section and style to column */
 .container-flight-support{
     background-color: #F6EBE0;
@@ -441,7 +441,7 @@ body {
     color: #000;
 }
 
-/*--sign-up-form-- */
+/* sign-up-form */
 /* background image for sign-up form */
 .sign-up-form {
     background: url(../images/paper-plane.webp) no-repeat center;
@@ -536,7 +536,7 @@ body {
     border-color: #fd9c35;
 }
 
-/* --footer-- */
+/* footer */
 /* flexbox and alignment for social icons */
 .social-links {
     display: -webkit-box;
@@ -573,7 +573,7 @@ body {
 } 
 
 
-/* --confirmation.html - destination upon submission of sign-up form-- */
+/* confirmation.html - destination upon submission of sign-up form */
 /* background img for confirmation page */
 .confirmation-page {
     background: url(../images/paper-plane.webp) no-repeat center;
